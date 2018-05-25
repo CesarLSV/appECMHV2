@@ -1,2 +1,2 @@
 android.app.Application
-com.companyname.appECMHV2
+com.monicaherrera.edu.sv

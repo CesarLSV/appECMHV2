@@ -1,7 +1,7 @@
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\bin\Debug\appECMHV2.Android.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\bin\Debug\appECMHV2.Android.pdb
-Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\bin\Debug\com.companyname.appECMHV2.apk
-Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\bin\Debug\com.companyname.appECMHV2-Signed.apk
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\bin\Debug\com.monicaherrera.edu.sv.apk
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\bin\Debug\com.monicaherrera.edu.sv-Signed.apk
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\bin\Debug\appECMHV2.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\bin\Debug\appECMHV2.pdb
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\bin\Debug\es\appECMHV2.resources.dll
@@ -19,11 +19,12 @@ Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\XbdM
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\XbdMerge\1f4fd9cc.proguard.stamp
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\XbdMerge\d9f2c52f.proguard.stamp
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\XbdMerge\04db0838.proguard.stamp
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\googsvcsjson\values\goog_svcs_json.xml
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\appECMHV2.Android.csproj.CoreCompileInputs.cache
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\appECMHV2.Android.csproj.CopyComplete
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\appECMHV2.Android.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\appECMHV2.Android.pdb
-Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\android\bin\com.companyname.appECMHV2.apk
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\android\bin\com.monicaherrera.edu.sv.apk
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\res\layout\tabbar.xml
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\res\layout\toolbar.xml
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\res\values\styles.xml

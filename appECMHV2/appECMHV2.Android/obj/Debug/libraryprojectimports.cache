@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
   <Jars>
+    <Jar>obj\Debug\lp\2\jl\formsviewgroup.jar</Jar>
+    <Jar>obj\Debug\lp\12\jl\arch-core-common.jar</Jar>
+    <Jar>obj\Debug\lp\13\jl\arch-lifecycle-common.jar</Jar>
+    <Jar>obj\Debug\lp\16\jl\support-annotations.jar</Jar>
     <Jar>Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\lp\12\jl\arch-core-common.jar</Jar>
     <Jar>Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\lp\13\jl\arch-lifecycle-common.jar</Jar>
     <Jar>Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\lp\14\jl\bin\classes.jar</Jar>
