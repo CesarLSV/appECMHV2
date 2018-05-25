@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appECMHV2.Views.NotasPage"
+               BindingContext="{Binding Main, Source={StaticResource Locator}}"
+             BackgroundColor="White"
+             Title="Mis Notas">
+    <ContentPage.Content>
+        <StackLayout
+            BackgroundColor="#4f6e88"
+            BindingContext="{Binding Notas}"
+            Padding="1">
+            <SearchBar
+                HeightRequest="46"
+                Text="{Binding Filter, Mode=TwoWay}"
+                Placeholder="Search..."
+                SearchCommand="{Binding SearchCommand}">
+
+            </SearchBar>
+            <ListView 
+                BackgroundColor="#4f6e88"
+                HasUnevenRows="true" 
+                IsPullToRefreshEnabled="true"
+                IsRefreshing="{Binding IsRefreshing, Mode=TwoWay}"
+                ItemsSource="{Binding Notas}"
+                SeparatorVisibility="None"
+                RefreshCommand="{Binding RefreshCommand}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame
+                                CornerRadius="5"
+                                HasShadow="true"
+                                Margin="5">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding SelectLandCommand}"/>
+                                </Frame.GestureRecognizers>
+
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+
+                                        <ColumnDefinition Width="4*"/>
+                                        <ColumnDefinition Width="*"/>
+
+                                    </Grid.ColumnDefinitions>
+
+                                    <Grid.RowDefinitions>
+
+                                        <RowDefinition Height="Auto"/>
+
+                                    </Grid.RowDefinitions>
+
+
+                                    <Label 
+                                            Grid.Row="0"
+                                            FontAttributes="Bold"
+                                            FontSize="Medium" 
+                                            Text="{Binding EventLongName}"
+                                            TextColor="Black">
+                                    </Label>
+
+                                    <Label 
+                                            Grid.Row="1"
+                                            Grid.Column="0"
+                                            Text="Primer Parcial "
+                                            TextColor="Black">
+                                    </Label>
+
+                                    <Label 
+                                           FontAttributes="Bold"
+                                           Grid.Row="1" 
+                                           Grid.Column="1"
+                                           Text="{Binding PrimerParcial}"
+                                           TextColor="Black">
+                                    </Label>
+
+
+
+                                    <Label 
+                                            Grid.Row="2"    
+                                            Grid.Column="0"
+                                            Text="Segundo Parcial "
+                                            TextColor="Black">
+                                    </Label>
+
+                                    <Label 
+                                            FontAttributes="Bold"
+                                            Grid.Row="2"   
+                                            Grid.Column="1"
+                                            Text="{Binding SegundoParcial}"
+                                            TextColor="Black">
+                                    </Label>
+
+
+
+
+
+
+                                    <Label 
+                                            Grid.Row="3"   
+                                            Grid.Column="0"
+                                            Text="Evaluación Final "
+                                            TextColor="Black">
+                                    </Label>
+
+                                    <Label 
+                                            FontAttributes="Bold"
+                                            Grid.Row="3"   
+                                            Grid.Column="1"
+                                            Text="{Binding EvaluacionFinal}"
+                                            TextColor="Black">
+                                    </Label>
+
+
+                                    <Label 
+                                            Grid.Row="4"   
+                                            Grid.Column="0"
+                                            Text="Promedio "
+                                            TextColor="Black">
+                                    </Label>
+
+                                    <Label 
+                                            FontAttributes="Bold"
+                                            Grid.Row="4"   
+                                            Grid.Column="1"
+                                            Text="{Binding Promedio}"
+                                            TextColor="Black">
+                                    </Label>
+
+
+
+
+                                    <Image 
+                                        Grid.Row="0"
+                                        Grid.Column="2"
+                                        HorizontalOptions="End"
+                                        Source="ic_chevron_right">
+                                    </Image>
+
+                                </Grid>
+
+
+
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

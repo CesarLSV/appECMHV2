@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appECMHV2.Views.HorariosPage"
+             BindingContext="{Binding Main, Source={StaticResource Locator}}"
+             BackgroundColor="White"
+             Title="Mis Horarios">
+    <ContentPage.Content>
+        <StackLayout
+            BackgroundColor="#4f6e88"
+             BindingContext="{Binding Horarios}">
+            <SearchBar
+                HeightRequest="46"
+                Text="{Binding Filter, Mode=TwoWay}"
+                Placeholder="Search..."
+                SearchCommand="{Binding SearchCommand}">
+
+            </SearchBar>
+
+            <ListView 
+                BackgroundColor="#4f6e88"
+                HasUnevenRows="true" 
+                IsPullToRefreshEnabled="true"
+                IsRefreshing="{Binding IsRefreshing, Mode=TwoWay}"
+                ItemsSource="{Binding HorariosAlumno}"
+                SeparatorVisibility="None"
+                RefreshCommand="{Binding RefreshCommand}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame
+                                CornerRadius="5"
+                                HasShadow="true"
+                                Margin="5">
+
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+
+                                        <ColumnDefinition Width="Auto"/>
+
+
+                                    </Grid.ColumnDefinitions>
+
+                                    <Grid.RowDefinitions>
+
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+
+                                    </Grid.RowDefinitions>
+
+
+                                    <Label 
+                                            Grid.Row="0"
+                                            FontAttributes="Bold"
+                                            FontSize="Medium" 
+                                            Text="{Binding EventLongName}"
+                                            TextColor="Black">
+                                    </Label>
+
+
+                                    <Label 
+                                        Grid.Row="1"
+                                        FontSize="Medium" 
+                                        Text="{Binding Section2}"
+                                        TextColor="Black">
+
+                                    </Label>
+
+
+                                    <Label 
+                                        Grid.Row="2"
+                                        FontSize="Medium" 
+                                        Text="{Binding HorariosProcesados}"
+                                        TextColor="Black">
+                                    </Label>
+
+
+
+                                </Grid>
+
+
+
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "957350731953",
+    "firebase_url": "https://ecmh-ddfcc.firebaseio.com",
+    "project_id": "ecmh-ddfcc",
+    "storage_bucket": "ecmh-ddfcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957350731953:android:25dd9b91fd90ddac",
+        "android_client_info": {
+          "package_name": "com.monicaherrera.edu.sv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957350731953-5g57lrkbrpsuo8n1j8fvv01s8bqfaqg6.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "957350731953-5g57lrkbrpsuo8n1j8fvv01s8bqfaqg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALjhC9rqoGY7i6lR4fOreIdnXuqBznh4M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

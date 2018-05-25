@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appECMHV2.Views.BibliotecaPage"
+             BindingContext="{Binding Main, Source={StaticResource Locator}}"
+             BackgroundColor="White"
+             Title="Biblioteca">
+    <ContentPage.Content>
+        <StackLayout
+            BackgroundColor="#4f6e88"
+            BindingContext="{Binding Biblioteca}"
+            >
+            <WebView Source="https://biblioteca.monicaherrera.edu.sv/library/index.php?title=Especial:GSMSearchPage"
+                        HeightRequest="1000"
+                        WidthRequest="1000" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

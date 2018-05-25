@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:i18n="clr-namespace:appECMHV2.Helpers"
+             x:Class="appECMHV2.Views.AlumnoPage"
+             BackgroundColor="White"
+             BindingContext="{Binding Main, Source={StaticResource Locator}}"
+             Title="Mónico">
+    <ContentPage.Content>
+        <ScrollView
+             BindingContext="{Binding Alumno}">
+            <StackLayout
+           BackgroundColor="#4f6e88">
+                <StackLayout
+               Padding="5"
+               BackgroundColor="#4f6e88">
+
+                    <Image
+                   Source="top_2.png"
+                   WidthRequest="125">
+
+                    </Image>
+
+
+                    <Label             
+                    FontAttributes="Bold"
+                    FontSize="Medium"
+                    Text="{i18n:Translate welcome}"
+                    TextColor="#e2f1fb">
+
+                    </Label>
+
+
+                    <ListView 
+                BackgroundColor="#4f6e88"
+                HasUnevenRows ="True"
+                ItemsSource="{Binding LoggedUser}"
+                SeparatorVisibility="None"
+                VerticalOptions="CenterAndExpand"
+                    WidthRequest="100"
+                    HeightRequest="100">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Frame
+                               BackgroundColor="#4f6e88"
+                                CornerRadius="5"
+                                HasShadow="True"
+                                Margin="5">
+
+                                        <Grid
+                                    VerticalOptions="CenterAndExpand">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+
+                                            <Label
+                                        Grid.Row="0"
+                                        Grid.Column="0"
+                                        FontSize="Small"
+                                        Text="{Binding NameStudent}"
+                                        TextColor="#e2f1fb"
+                                        VerticalOptions="CenterAndExpand">
+
+                                            </Label>
+
+                                            <Label
+                                        Grid.Row="1"
+                                        Grid.Column="0"
+                                        FontSize="Small"
+                                        Text="{Binding Curriculum}"
+                                        TextColor="#e2f1fb"
+                                         VerticalOptions="CenterAndExpand">
+
+                                            </Label>
+
+
+
+                                        </Grid>
+
+
+
+                                    </Frame>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+
+                    <ActivityIndicator
+                    Color="#9ebad2"
+                    IsRunning="{Binding IsRunning, Mode=TwoWay}"
+                    VerticalOptions="CenterAndExpand">
+
+                    </ActivityIndicator>
+
+                    <!--<StackLayout 
+                    BackgroundColor="#4f6e88"
+                    VerticalOptions="EndAndExpand"
+                    Padding="10,20,5,5">
+
+                    <Label
+                        Grid.Row="0"
+                        FontAttributes="None"
+                        FontSize="Medium"
+                        Text="{i18n:Translate availableoptions}"
+                        TextColor="#e2f1fb">
+
+                    </Label>
+
+                    
+                    <Button
+                        BackgroundColor="#0e94f6"
+                        Command="{Binding NotasCommand}"
+                        IsEnabled="{Binding IsEnabled, Mode=TwoWay}"
+                        TextColor="White"
+                        Text="{i18n:Translate myqualifications}">
+
+                    </Button>
+
+                    <Button
+                        BackgroundColor="#55b748"
+                        Command="{Binding HorariosCommand}"
+                        IsEnabled="{Binding IsEnabled, Mode=TwoWay}"
+                        TextColor="White"
+                        Text="{i18n:Translate myschedules}">
+
+                    </Button>
+
+
+                    <Button
+                        BackgroundColor="#ec2629"
+                        Command="{Binding BibliotecaCommand}"
+                        IsEnabled="{Binding IsEnabled, Mode=TwoWay}"
+                        TextColor="White"
+                        Text="{i18n:Translate library}">
+
+                    </Button>
+                </StackLayout>-->
+
+
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+
+
+
+
+    </ContentPage.Content>
+</ContentPage>

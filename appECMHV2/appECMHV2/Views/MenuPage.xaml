@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appECMHV2.Views.MenuPage"
+             BindingContext="{Binding Main, Source={StaticResource Locator}}"
+             BackgroundColor="#ec2629"
+             Icon="ic_menu"
+             Title="Menú">
+    <ContentPage.Content>
+        <StackLayout
+            Padding="5,20,5,5">
+            <Image
+                Source="top_2.png"
+                WidthRequest="100">
+            </Image>
+            <ListView 
+                BackgroundColor="#ec2629"
+                HasUnevenRows="true" 
+                ItemsSource="{Binding Menus}"
+                SeparatorVisibility="None">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+
+
+                            <Grid>
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer
+                                        Command="{Binding NavigateCommand}">
+
+                                    </TapGestureRecognizer>
+                                </Grid.GestureRecognizers>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Image
+                                    Grid.Column="0"
+                                    Source="{Binding Icon}"
+                                    WidthRequest="50"
+                                    HeightRequest="50">
+                                </Image>
+
+                                <Label 
+                                    Grid.Column="1"
+                                    Text="{Binding Title}"
+                                    TextColor="White"
+                                    VerticalOptions="Center">
+                                </Label>
+
+
+                            </Grid>
+
+
+
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
