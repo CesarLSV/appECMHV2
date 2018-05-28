@@ -1253,9 +1253,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/administrator/Documents/CL/appECMHV2/appECMHV2/appECMHV2.iOS/appECMHV2.iOS.csproj",
-      "projectName": "appECMHV2.iOS",
-      "projectPath": "/Users/administrator/Documents/CL/appECMHV2/appECMHV2/appECMHV2.iOS/appECMHV2.iOS.csproj",
+      "projectUniqueName": "/Users/administrator/Documents/CL/appECMHV2/appECMHV2/appECMHV2.iOS/ECMH.csproj",
+      "projectName": "ECMH",
+      "projectPath": "/Users/administrator/Documents/CL/appECMHV2/appECMHV2/appECMHV2.iOS/ECMH.csproj",
       "packagesPath": "/Users/administrator/.nuget/packages/",
       "outputPath": "/Users/administrator/Documents/CL/appECMHV2/appECMHV2/appECMHV2.iOS/obj",
       "projectStyle": "PackageReference",

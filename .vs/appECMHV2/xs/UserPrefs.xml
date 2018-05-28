@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{20B34E61-2339-4371-92C2-ABA01454CF88}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="appECMHV2/appECMHV2.iOS/Info.plist">
+  <MonoDevelop.Ide.Workbench ActiveDocument="appECMHV2/appECMHV2.Android/MainActivity.cs">
     <Files>
       <File FileName="appECMHV2/appECMHV2.iOS/Resources/LaunchScreen.storyboard" />
       <File FileName="appECMHV2/appECMHV2.iOS/Info.plist" />
+      <File FileName="appECMHV2/appECMHV2.Android/MainActivity.cs" Line="14" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.ECMH PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C71CE127-32D1-4A6A-8599-227F49314F8F" automaticSigning="False" />
