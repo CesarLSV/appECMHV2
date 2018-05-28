@@ -28,10 +28,32 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
+                            <StackLayout 
+                                           
+                                                BackgroundColor="Red"
+                                                Orientation="Horizontal">
+
+                                <Label 
+                                            Grid.Row="0"
+                                            FontAttributes="Bold"
+                                            FontSize="Medium" 
+                                            Text="{Binding EventLongName}"
+                                            TextColor="Black">
+                                </Label>
+
+                                <Image 
+                                        Grid.Row="0"
+                                        Grid.Column="1"
+                                        HorizontalOptions="End"
+                                        Source="ic_chevron_right">
+                                </Image>
+
+                            </StackLayout>
+                            
                             <Frame
                                 CornerRadius="1"
                                 HasShadow="true"
-                                Margin="5">
+                                Margin="1">
                                 <Frame.GestureRecognizers>
                                     <TapGestureRecognizer Command="{Binding SelectLandCommand}"/>
                                 </Frame.GestureRecognizers>
@@ -51,19 +73,7 @@
 
                                     </Grid.RowDefinitions>
 
-                                    <StackLayout 
-                                           
-                                                BackgroundColor="Red"
-                                                Orientation="Horizontal">
                                    
-                                    <Label 
-                                            Grid.Row="0"
-                                            FontAttributes="Bold"
-                                            FontSize="Medium" 
-                                            Text="{Binding EventLongName}"
-                                            TextColor="Black">
-                                    </Label>
-                                    </StackLayout>
                                     
                                     <Label 
                                             Grid.Row="1"
@@ -121,7 +131,7 @@
                                     <Label 
                                             Grid.Row="4"   
                                             Grid.Column="0"
-                                            Text="Promedio "
+                                            Text="Nota final "
                                             TextColor="Black">
                                     </Label>
 
@@ -136,12 +146,6 @@
 
 
 
-                                    <Image 
-                                        Grid.Row="0"
-                                        Grid.Column="2"
-                                        HorizontalOptions="End"
-                                        Source="ic_chevron_right">
-                                    </Image>
 
                                 </Grid>
 
