@@ -170,28 +170,34 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <BundleResource Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
     <BundleResource Include="Resources\ic_chevron_right.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ic_exit_to_app.png" />
+    <BundleResource Include="Resources\library.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ic_keyboard_arrow_right.png" />
+    <BundleResource Include="Resources\logomonica.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ic_launcher.png" />
+    <BundleResource Include="Resources\menu.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ic_local_library.png" />
+    <BundleResource Include="Resources\notes.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ic_menu.png" />
+    <BundleResource Include="Resources\person.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ic_playlist_add_check.png" />
+    <BundleResource Include="Resources\qualifications.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ic_schedule.png" />
+    <BundleResource Include="Resources\schedule.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\solo_logo_monica.png" />
@@ -201,5 +207,8 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\top_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\top_3.png" />
   </ItemGroup>
 </Project>
