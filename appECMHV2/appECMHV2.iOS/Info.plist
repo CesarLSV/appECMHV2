@@ -25,13 +25,15 @@
 	<key>CFBundleDisplayName</key>
 	<string>appECMHV2</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.companyname.appECMHV2</string>
+	<string>com.monicaherrera.edu.sv</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>CFBundleName</key>
-	<string>appECMHV2</string>
+	<string>ECMH</string>
+	<key>UIMainStoryboardFile</key>
+	<string>LaunchScreen</string>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
 </dict>

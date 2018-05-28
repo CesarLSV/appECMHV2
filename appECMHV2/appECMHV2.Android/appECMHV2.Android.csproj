@@ -112,7 +112,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\appECMHV2\appECMHV2.csproj">
-      <Project>{BECC82CA-2167-4FB6-B340-C65FE9EA3A4E}</Project>
+      <Project>{865D1159-2FB5-4AAC-A7B8-B2D54486384D}</Project>
       <Name>appECMHV2</Name>
     </ProjectReference>
   </ItemGroup>
