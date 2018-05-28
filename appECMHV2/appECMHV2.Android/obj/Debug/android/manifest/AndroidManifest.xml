@@ -7,7 +7,7 @@
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
   <application android:label="appECMHV2.Android" android:icon="@drawable/ic_launcher" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="App1" android:theme="@style/MainTheme" android:name="md58ad13bb77b3b4798e4e714fc90dd440a.MainActivity" />
+    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="App1" android:screenOrientation="portrait" android:theme="@style/MainTheme" android:name="md58ad13bb77b3b4798e4e714fc90dd440a.MainActivity" />
     <activity android:icon="@drawable/logomonica" android:label="ECMH" android:noHistory="true" android:theme="@style/Theme.Splash" android:name="md58ad13bb77b3b4798e4e714fc90dd440a.SplashActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
