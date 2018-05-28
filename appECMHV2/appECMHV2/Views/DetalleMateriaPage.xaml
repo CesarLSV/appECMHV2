@@ -9,15 +9,15 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout
-                BackgroundColor="#4f6e88"
+                BackgroundColor="#333333"
                 BindingContext="{Binding DetalleMateria}"
                 Padding="5">
 
                 <Label
-                   FontSize="Large"
+                    FontSize="Large"
                     FontAttributes="Bold"
                     Text="{Binding NotasLista.EventLongName}"
-                     TextColor="#e2f1fb">
+                    TextColor="#eb2629">
 
                 </Label>
 
@@ -30,33 +30,33 @@
                         Grid.Row="0"
                         Grid.Column="0"
                         Text="Sección"
-                        TextColor="#e2f1fb">
+                        TextColor="#e6e6e6">
                     </Label>
                     <Label
                         Grid.Row="0"
                         Grid.Column="1"
                         FontAttributes="Bold"
                         Text="{Binding NotasLista.Section}"
-                        TextColor="#e2f1fb">
+                        TextColor="#e6e6e6">
                     </Label>
                     <Label
                         Grid.Row="1"
                         Grid.Column="0"
                         Text="Ciclo"
-                        TextColor="#e2f1fb">
+                        TextColor="#e6e6e6">
                     </Label>
                     <Label
                         Grid.Row="1"
                         Grid.Column="1"
                         FontAttributes="Bold"
                         Text="{Binding NotasLista.AcademicTerm}"
-                        TextColor="#e2f1fb">
+                        TextColor="#e6e6e6">
                     </Label>
                     <Label
                         Grid.Row="2"
                         Grid.Column="0"
                         Text="Código Materia"
-                        TextColor="#e2f1fb">
+                        TextColor="#e6e6e6">
                     </Label>
 
                     <Label
@@ -64,7 +64,7 @@
                         Grid.Column="1"
                         FontAttributes="Bold"
                         Text="{Binding NotasLista.EventID}"
-                       TextColor="#e2f1fb">
+                       TextColor="#e6e6e6">
                     </Label>
 
                 </Grid>

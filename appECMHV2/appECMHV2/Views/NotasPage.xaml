@@ -7,10 +7,10 @@
              Title="Mis Notas">
     <ContentPage.Content>
         <StackLayout
-            BackgroundColor="#4f6e88"
-            BindingContext="{Binding Notas}"
-            Padding="1">
+            BackgroundColor="#333333"
+            BindingContext="{Binding Notas}">
             <SearchBar
+                BackgroundColor="White"
                 HeightRequest="46"
                 Text="{Binding Filter, Mode=TwoWay}"
                 Placeholder="Search..."
@@ -18,7 +18,7 @@
 
             </SearchBar>
             <ListView 
-                BackgroundColor="#4f6e88"
+                BackgroundColor="#333333"
                 HasUnevenRows="true" 
                 IsPullToRefreshEnabled="true"
                 IsRefreshing="{Binding IsRefreshing, Mode=TwoWay}"
@@ -28,127 +28,120 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <StackLayout 
-                                           
-                                                BackgroundColor="Red"
-                                                Orientation="Horizontal">
-
-                                <Label 
-                                            Grid.Row="0"
-                                            FontAttributes="Bold"
-                                            FontSize="Medium" 
-                                            Text="{Binding EventLongName}"
-                                            TextColor="Black">
-                                </Label>
-
-                                <Image 
-                                        Grid.Row="0"
-                                        Grid.Column="1"
-                                        HorizontalOptions="End"
-                                        Source="ic_chevron_right">
-                                </Image>
-
-                            </StackLayout>
                             
+
                             <Frame
-                                CornerRadius="1"
+                                CornerRadius="0"
                                 HasShadow="true"
-                                Margin="1">
+                                Margin="5"
+                                Padding="0"
+                                BackgroundColor="Purple">
+                               
                                 <Frame.GestureRecognizers>
                                     <TapGestureRecognizer Command="{Binding SelectLandCommand}"/>
                                 </Frame.GestureRecognizers>
-
-                                <Grid>
-                                    <Grid.ColumnDefinitions>
-
-                                        <ColumnDefinition Width="4*"/>
-                                        <ColumnDefinition Width="*"/>
-
-                                    </Grid.ColumnDefinitions>
-
-                                    <Grid.RowDefinitions>
-
-                                        <RowDefinition Height="Auto"/>
-                                        
-
-                                    </Grid.RowDefinitions>
-
-                                   
+                                
+                                <StackLayout 
+                                        BackgroundColor="White"
+                                        Orientation="Vertical">
                                     
-                                    <Label 
-                                            Grid.Row="1"
-                                            Grid.Column="0"
-                                            Text="Primer Parcial "
-                                            TextColor="Black">
-                                    </Label>
+                                    <StackLayout 
+                                        BackgroundColor="Red"
+                                        Orientation="Horizontal"
+                                        Padding="5">
 
-                                    <Label 
-                                           FontAttributes="Bold"
-                                           Grid.Row="1" 
-                                           Grid.Column="1"
-                                           Text="{Binding PrimerParcial}"
-                                           TextColor="Black">
-                                    </Label>
-
-
-
-                                    <Label 
-                                            Grid.Row="2"    
-                                            Grid.Column="0"
-                                            Text="Segundo Parcial "
-                                            TextColor="Black">
-                                    </Label>
-
-                                    <Label 
+                                        <Label 
                                             FontAttributes="Bold"
-                                            Grid.Row="2"   
+                                            FontSize="Medium" 
+                                            Text="{Binding EventLongName}"
+                                            TextColor="White"
+                                            HorizontalOptions="StartAndExpand"
+                                            VerticalOptions="CenterAndExpand">
+                                        </Label>
+
+                                        <Image 
+                                            HorizontalOptions="End"
+                                            Source="ic_chevron_right"
+                                            VerticalOptions="CenterAndExpand">
+                                        </Image>
+                                    </StackLayout>
+
+                                    <StackLayout
+                                        Orientation="Horizontal"
+                                        Padding="5">
+                                        <Label 
+                                            Text="Primer Parcial "
+                                            TextColor="Black"
+                                            WidthRequest="150">
+                                        </Label>
+
+                                        <Label 
+                                            FontAttributes="Bold"
+                                            Grid.Row="1" 
                                             Grid.Column="1"
+                                            Text="{Binding PrimerParcial}"
+                                            TextColor="Black"
+                                            VerticalOptions="EndAndExpand">
+                                        </Label>
+                                    </StackLayout>
+
+                                    <StackLayout
+                                        Orientation="Horizontal"
+                                         Padding="5">
+                                        <Label 
+                                            Text="Segundo Parcial "
+                                            TextColor="Black"
+                                            WidthRequest="150">
+                                        </Label>
+
+                                        <Label 
+                                            FontAttributes="Bold"
                                             Text="{Binding SegundoParcial}"
                                             TextColor="Black">
-                                    </Label>
+                                        </Label>
+
+                                    </StackLayout>
 
 
 
+                                    <StackLayout
+                                        Orientation="Horizontal"
+                                        Padding="5">
 
-
-
-                                    <Label 
-                                            Grid.Row="3"   
-                                            Grid.Column="0"
+                                        <Label 
                                             Text="Evaluación Final "
-                                            TextColor="Black">
+                                            TextColor="Black"
+                                            WidthRequest="150">
                                     </Label>
 
                                     <Label 
-                                            FontAttributes="Bold"
-                                            Grid.Row="3"   
-                                            Grid.Column="1"
-                                            Text="{Binding EvaluacionFinal}"
-                                            TextColor="Black">
+                                        FontAttributes="Bold"
+                                        Text="{Binding EvaluacionFinal}"
+                                        TextColor="Black">
                                     </Label>
 
-
-                                    <Label 
-                                            Grid.Row="4"   
-                                            Grid.Column="0"
+                                    </StackLayout>
+                                    <StackLayout
+                                         Orientation="Horizontal"
+                                         Padding="5">
+                                        <Label 
                                             Text="Nota final "
-                                            TextColor="Black">
+                                            TextColor="Black"
+                                            WidthRequest="150">
                                     </Label>
 
                                     <Label 
                                             FontAttributes="Bold"
-                                            Grid.Row="4"   
-                                            Grid.Column="1"
                                             Text="{Binding Promedio}"
                                             TextColor="Black">
                                     </Label>
 
 
+                                    </StackLayout>
 
 
 
-                                </Grid>
-
+                                </StackLayout>
 
 
                             </Frame>

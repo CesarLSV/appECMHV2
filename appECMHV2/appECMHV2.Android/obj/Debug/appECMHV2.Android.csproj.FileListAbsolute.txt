@@ -42,7 +42,6 @@ Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\res\
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\res\mipmap-xxxhdpi\icon.png
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\res\mipmap-xxxhdpi\launcher_foreground.png
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\res\drawable\ic_chevron_right.png
-Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\res\drawable\ic_keyboard_arrow_right.png
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\res\drawable\solo_logo_monica.png
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\res\drawable\splash_1.png
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\res\drawable\top_2.png
@@ -175,6 +174,9 @@ Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\res\
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\res\drawable-xxhdpi\exit.png
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\res\drawable-xxhdpi\library.png
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\res\drawable-xxhdpi\schedule.png
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\res\drawable-hdpi\ic_chevron_right.png
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\res\drawable-xhdpi\ic_chevron_right.png
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\res\drawable-xxhdpi\ic_chevron_right.png
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\bin\Debug\appECMHV2.Android.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\linksrc\appECMHV2.pdb
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Debug\linksrc\appECMHV2.Android.dll.mdb

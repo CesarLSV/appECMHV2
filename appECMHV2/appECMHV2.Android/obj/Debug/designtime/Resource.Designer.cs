@@ -3365,9 +3365,6 @@ namespace appECMHV2.Droid
 			// aapt resource value: 2131296375
 			public static int ic_group_expand_15 = 2131296375;
 			
-			// aapt resource value: 0
-			public static int ic_keyboard_arrow_right = 0;
-			
 			// aapt resource value: 2130837555
 			public static int ic_launcher = 2130837555;
 			
