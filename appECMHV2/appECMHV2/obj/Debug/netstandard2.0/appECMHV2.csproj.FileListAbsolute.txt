@@ -11,3 +11,4 @@ Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2\obj\Debug\netstandard2
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2\obj\Debug\netstandard2.0\es\appECMHV2.resources.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2\obj\Debug\netstandard2.0\appECMHV2.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2\obj\Debug\netstandard2.0\appECMHV2.pdb
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2\obj\Debug\netstandard2.0\appECMHV2.csprojAssemblyReference.cache

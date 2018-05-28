@@ -88,7 +88,7 @@ namespace appECMHV2.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Enter.
+        ///   Looks up a localized string similar to Log In.
         /// </summary>
         internal static string enter {
             get {
@@ -178,7 +178,7 @@ namespace appECMHV2.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Remind me on this device.
+        ///   Looks up a localized string similar to Remember me.
         /// </summary>
         internal static string rememberme {
             get {
@@ -214,7 +214,16 @@ namespace appECMHV2.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Welcome.
+        ///   Looks up a localized string similar to Use your ECMH username and password to log in..
+        /// </summary>
+        internal static string useyourecmhuser {
+            get {
+                return ResourceManager.GetString("useyourecmhuser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to WELCOME.
         /// </summary>
         internal static string welcome {
             get {

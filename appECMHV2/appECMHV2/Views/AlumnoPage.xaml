@@ -10,77 +10,106 @@
         <ScrollView
              BindingContext="{Binding Alumno}">
             <StackLayout
-           BackgroundColor="#4f6e88">
+           BackgroundColor="#333333">
                 <StackLayout
-               Padding="5"
-               BackgroundColor="#4f6e88">
+                   Padding="10,40,5,5"
+                   BackgroundColor="White"
+                    WidthRequest="400"
+                    HeightRequest="100">
+                    
 
                     <Image
-                   Source="top_2.png"
-                   WidthRequest="125">
+                       Source="top_3.png"
+                       WidthRequest="200">
 
                     </Image>
 
-
                     <Label             
-                    FontAttributes="Bold"
-                    FontSize="Medium"
-                    Text="{i18n:Translate welcome}"
-                    TextColor="#e2f1fb">
+                        FontAttributes="Bold"
+                        FontSize="Large"
+                        Text="{i18n:Translate welcome}"
+                        TextColor="#cccccc"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="Center">
 
                     </Label>
-
+                    
+                </StackLayout>
+                <StackLayout
+                       Padding="5">
 
                     <ListView 
-                BackgroundColor="#4f6e88"
-                HasUnevenRows ="True"
-                ItemsSource="{Binding LoggedUser}"
-                SeparatorVisibility="None"
-                VerticalOptions="CenterAndExpand"
-                    WidthRequest="100"
-                    HeightRequest="100">
+                        HasUnevenRows ="True"
+                        ItemsSource="{Binding LoggedUser}"
+                        SeparatorVisibility="None"
+                        VerticalOptions="CenterAndExpand"
+                        WidthRequest="100"
+                        HeightRequest="200">
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <ViewCell>
-                                    <Frame
-                               BackgroundColor="#4f6e88"
-                                CornerRadius="5"
-                                HasShadow="True"
-                                Margin="5">
 
-                                        <Grid
-                                    VerticalOptions="CenterAndExpand">
-                                            <Grid.ColumnDefinitions>
-                                                <ColumnDefinition Width="*"/>
-                                            </Grid.ColumnDefinitions>
 
-                                            <Label
-                                        Grid.Row="0"
-                                        Grid.Column="0"
-                                        FontSize="Small"
-                                        Text="{Binding NameStudent}"
-                                        TextColor="#e2f1fb"
+
+
+                                    <StackLayout 
+                                        BackgroundColor="White"
+                                        Orientation="Vertical"
                                         VerticalOptions="CenterAndExpand">
 
-                                            </Label>
+                                        <StackLayout 
+                                           
+                                                BackgroundColor="Red"
+                                                Orientation="Horizontal">
+
+                                            <Image
+                                                BackgroundColor="#c0201f"
+                                                Source="person.png"
+                                                WidthRequest="50">
+
+                                            </Image>
 
                                             <Label
-                                        Grid.Row="1"
-                                        Grid.Column="0"
-                                        FontSize="Small"
-                                        Text="{Binding Curriculum}"
-                                        TextColor="#e2f1fb"
-                                         VerticalOptions="CenterAndExpand">
+                                                FontSize="Medium"
+                                                Text="Perfil del alumno"
+                                                FontAttributes="Bold"
+                                                TextColor="#e2f1fb"
+                                                BackgroundColor="Red"
+                                                VerticalOptions="CenterAndExpand">
+
+                                            </Label>
+                                        </StackLayout>
+                                        
+                                        <StackLayout 
+                                            Padding="5"
+                                            Orientation="Vertical">
+                                            <Label
+                                          
+                                            FontSize="Medium"
+                                            FontAttributes="Bold"
+                                            Text="{Binding NameStudent}"
+                                            TextColor="Black"
+                                            VerticalOptions="CenterAndExpand">
 
                                             </Label>
 
+                                        <Label
+                                           
+                                            FontSize="Small"
+                                            Text="{Binding Curriculum}"
+                                            TextColor="Black"
+                                             VerticalOptions="CenterAndExpand">
+
+                                        </Label>
+                                        </StackLayout>
+                                    </StackLayout>
 
 
-                                        </Grid>
 
 
 
-                                    </Frame>
+
+
                                 </ViewCell>
                             </DataTemplate>
                         </ListView.ItemTemplate>
@@ -136,7 +165,7 @@
 
                     </Button>
                 </StackLayout>-->
-
+                   
 
                 </StackLayout>
             </StackLayout>

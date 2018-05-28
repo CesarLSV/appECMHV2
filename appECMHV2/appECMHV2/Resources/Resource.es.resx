@@ -136,13 +136,13 @@
     <value>Contraseña</value>
   </data>
   <data name="passwordplaceholder" xml:space="preserve">
-    <value>Ingresa tu password</value>
+    <value>Ingresa tu clave</value>
   </data>
   <data name="passwordvalidator" xml:space="preserve">
     <value>Debes ingresar una clave</value>
   </data>
   <data name="rememberme" xml:space="preserve">
-    <value>Recordarme en este dispositivo</value>
+    <value>Recordarme</value>
   </data>
   <data name="userlogin" xml:space="preserve">
     <value>Usuario</value>
@@ -154,7 +154,7 @@
     <value>Ingresa tu usuario</value>
   </data>
   <data name="welcome" xml:space="preserve">
-    <value>Bienvenid@</value>
+    <value>BIENVENID@</value>
   </data>
   <data name="availableoptions" xml:space="preserve">
     <value>Opciones disponibles</value>
@@ -170,5 +170,8 @@
   </data>
   <data name="exit" xml:space="preserve">
     <value>Salir</value>
+  </data>
+  <data name="useyourecmhuser" xml:space="preserve">
+    <value>Usa tu usuario y clave de ECMH para inciar sesion</value>
   </data>
 </root>

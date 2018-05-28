@@ -29,7 +29,7 @@
                     <DataTemplate>
                         <ViewCell>
                             <Frame
-                                CornerRadius="5"
+                                CornerRadius="1"
                                 HasShadow="true"
                                 Margin="5">
                                 <Frame.GestureRecognizers>
@@ -47,10 +47,15 @@
                                     <Grid.RowDefinitions>
 
                                         <RowDefinition Height="Auto"/>
+                                        
 
                                     </Grid.RowDefinitions>
 
-
+                                    <StackLayout 
+                                           
+                                                BackgroundColor="Red"
+                                                Orientation="Horizontal">
+                                   
                                     <Label 
                                             Grid.Row="0"
                                             FontAttributes="Bold"
@@ -58,7 +63,8 @@
                                             Text="{Binding EventLongName}"
                                             TextColor="Black">
                                     </Label>
-
+                                    </StackLayout>
+                                    
                                     <Label 
                                             Grid.Row="1"
                                             Grid.Column="0"

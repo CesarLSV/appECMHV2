@@ -124,7 +124,7 @@
     <value>Admissions</value>
   </data>
   <data name="enter" xml:space="preserve">
-    <value>Enter</value>
+    <value>Log In</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>Error</value>
@@ -142,7 +142,7 @@
     <value>You must enter an password.</value>
   </data>
   <data name="rememberme" xml:space="preserve">
-    <value>Remind me on this device</value>
+    <value>Remember me</value>
   </data>
   <data name="userlogin" xml:space="preserve">
     <value>User</value>
@@ -154,7 +154,7 @@
     <value>Enter your username</value>
   </data>
   <data name="welcome" xml:space="preserve">
-    <value>Welcome</value>
+    <value>WELCOME</value>
   </data>
   <data name="availableoptions" xml:space="preserve">
     <value>Available options</value>
@@ -170,5 +170,8 @@
   </data>
   <data name="exit" xml:space="preserve">
     <value>Exit</value>
+  </data>
+  <data name="useyourecmhuser" xml:space="preserve">
+    <value>Use your ECMH username and password to log in.</value>
   </data>
 </root>

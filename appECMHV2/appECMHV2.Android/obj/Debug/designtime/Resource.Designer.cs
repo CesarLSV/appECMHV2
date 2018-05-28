@@ -3005,6 +3005,9 @@ namespace appECMHV2.Droid
 			// aapt resource value: 2131296341
 			public static int avd_show_password = 2131296341;
 			
+			// aapt resource value: 0
+			public static int calendar = 0;
+			
 			// aapt resource value: 1
 			public static int cast_abc_scrubber_control_off_mtrl_alpha = 1;
 			
@@ -3243,6 +3246,9 @@ namespace appECMHV2.Droid
 			public static int design_snackbar_background = 2131296347;
 			
 			// aapt resource value: 0
+			public static int exit = 0;
+			
+			// aapt resource value: 0
 			public static int googleg_disabled_color_18 = 0;
 			
 			// aapt resource value: 0
@@ -3262,9 +3268,6 @@ namespace appECMHV2.Droid
 			
 			// aapt resource value: 2131296343
 			public static int ic_dialog_close_light = 2131296343;
-			
-			// aapt resource value: 0
-			public static int ic_exit_to_app = 0;
 			
 			// aapt resource value: 2131296344
 			public static int ic_group_collapse_00 = 2131296344;
@@ -3365,11 +3368,8 @@ namespace appECMHV2.Droid
 			// aapt resource value: 0
 			public static int ic_keyboard_arrow_right = 0;
 			
-			// aapt resource value: 0
-			public static int ic_launcher = 0;
-			
-			// aapt resource value: 0
-			public static int ic_local_library = 0;
+			// aapt resource value: 2130837555
+			public static int ic_launcher = 2130837555;
 			
 			// aapt resource value: 2131296376
 			public static int ic_media_pause_dark = 2131296376;
@@ -3388,9 +3388,6 @@ namespace appECMHV2.Droid
 			
 			// aapt resource value: 2131296381
 			public static int ic_media_stop_light = 2131296381;
-			
-			// aapt resource value: 0
-			public static int ic_menu = 0;
 			
 			// aapt resource value: 2131296382
 			public static int ic_mr_button_connected_00_dark = 2131296382;
@@ -3779,9 +3776,6 @@ namespace appECMHV2.Droid
 			// aapt resource value: 2131296510
 			public static int ic_mr_button_grey = 2131296510;
 			
-			// aapt resource value: 0
-			public static int ic_playlist_add_check = 0;
-			
 			// aapt resource value: 1
 			public static int ic_plusone_medium_off_client = 1;
 			
@@ -3793,9 +3787,6 @@ namespace appECMHV2.Droid
 			
 			// aapt resource value: 1
 			public static int ic_plusone_tall_off_client = 1;
-			
-			// aapt resource value: 0
-			public static int ic_schedule = 0;
 			
 			// aapt resource value: 2131296511
 			public static int ic_vol_type_speaker_dark = 2131296511;
@@ -3814,6 +3805,15 @@ namespace appECMHV2.Droid
 			
 			// aapt resource value: 2131296516
 			public static int ic_vol_type_tv_light = 2131296516;
+			
+			// aapt resource value: 0
+			public static int library = 0;
+			
+			// aapt resource value: 0
+			public static int logomonica = 0;
+			
+			// aapt resource value: 0
+			public static int menu = 0;
 			
 			// aapt resource value: 2131296517
 			public static int mr_button_connected_dark = 2131296517;
@@ -3878,6 +3878,9 @@ namespace appECMHV2.Droid
 			// aapt resource value: 2131296348
 			public static int navigation_empty_icon = 2131296348;
 			
+			// aapt resource value: 0
+			public static int notes = 0;
+			
 			// aapt resource value: 2131296257
 			public static int notification_action_background = 2131296257;
 			
@@ -3914,6 +3917,9 @@ namespace appECMHV2.Droid
 			// aapt resource value: 2131296268
 			public static int notify_panel_notification_icon_bg = 2131296268;
 			
+			// aapt resource value: 0
+			public static int person = 0;
+			
 			// aapt resource value: 1
 			public static int places_ic_clear = 1;
 			
@@ -3925,6 +3931,9 @@ namespace appECMHV2.Droid
 			
 			// aapt resource value: 1
 			public static int powered_by_google_light = 1;
+			
+			// aapt resource value: 0
+			public static int qualifications = 0;
 			
 			// aapt resource value: 1
 			public static int quantum_ic_art_track_grey600_48 = 1;
@@ -4050,6 +4059,9 @@ namespace appECMHV2.Droid
 			public static int quantum_ic_volume_up_white_36 = 1;
 			
 			// aapt resource value: 0
+			public static int schedule = 0;
+			
+			// aapt resource value: 0
 			public static int solo_logo_monica = 0;
 			
 			// aapt resource value: 0
@@ -4063,6 +4075,9 @@ namespace appECMHV2.Droid
 			
 			// aapt resource value: 0
 			public static int top_2 = 0;
+			
+			// aapt resource value: 0
+			public static int top_3 = 0;
 			
 			static Drawable()
 			{

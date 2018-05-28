@@ -110,14 +110,14 @@ namespace appECMHV2.ViewModels
             this.Menus = new ObservableCollection<MenuItemViewModel>();
             this.Menus.Add(new MenuItemViewModel
             {
-                Icon = "ic_playlist_add_check",
+                Icon = "qualifications",
                 PageName = "NotasPage",
                 Title = Languages.myqualifications
             });
 
             this.Menus.Add(new MenuItemViewModel
             {
-                Icon = "ic_schedule",
+                Icon = "schedule",
                 PageName = "HorariosPage",
                 Title = Languages.myschedules
             });
@@ -125,14 +125,14 @@ namespace appECMHV2.ViewModels
 
             this.Menus.Add(new MenuItemViewModel
             {
-                Icon = "ic_local_library",
+                Icon = "library",
                 PageName = "BibliotecaPage",
                 Title = Languages.library
             });
 
             this.Menus.Add(new MenuItemViewModel
             {
-                Icon = "ic_exit_to_app",
+                Icon = "exit",
                 PageName = "LoginPage",
                 Title = Languages.exit
             });

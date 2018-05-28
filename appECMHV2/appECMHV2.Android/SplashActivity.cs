@@ -13,7 +13,7 @@ using Android.Widget;
 namespace appECMHV2.Droid
 {
     [Activity(Label = "ECMH",
-       Icon = "@drawable/ic_launcher",
+       Icon = "@drawable/logomonica",
        Theme = "@style/Theme.Splash",
        MainLauncher = true,
        NoHistory = true)]
