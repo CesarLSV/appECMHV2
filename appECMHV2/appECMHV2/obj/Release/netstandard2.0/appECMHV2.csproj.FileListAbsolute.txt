@@ -1,0 +1,13 @@
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2\bin\Release\netstandard2.0\appECMHV2.deps.json
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2\bin\Release\netstandard2.0\appECMHV2.dll
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2\bin\Release\netstandard2.0\appECMHV2.pdb
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2\bin\Release\netstandard2.0\es\appECMHV2.resources.dll
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2\obj\Release\netstandard2.0\appECMHV2.Resources.Resource.resources
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2\obj\Release\netstandard2.0\appECMHV2.Resources.Resource.es.resources
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2\obj\Release\netstandard2.0\appECMHV2.csproj.GenerateResource.cache
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2\obj\Release\netstandard2.0\appECMHV2.csproj.CoreCompileInputs.cache
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2\obj\Release\netstandard2.0\appECMHV2.AssemblyInfoInputs.cache
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2\obj\Release\netstandard2.0\appECMHV2.AssemblyInfo.cs
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2\obj\Release\netstandard2.0\es\appECMHV2.resources.dll
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2\obj\Release\netstandard2.0\appECMHV2.dll
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2\obj\Release\netstandard2.0\appECMHV2.pdb

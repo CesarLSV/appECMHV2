@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>appECMHV2</id>
+    <version>1.0.0</version>
+    <authors>appECMHV2</authors>
+    <owners>appECMHV2</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="MvvmLightLibs" version="5.4.1" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="11.0.2" exclude="Build,Analyzers" />
+        <dependency id="Xam.Plugin.Connectivity" version="3.1.1" exclude="Build,Analyzers" />
+        <dependency id="Xam.Plugins.Settings" version="3.1.1" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.Forms" version="3.0.0.446417" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2\bin\Release\netstandard2.0\es\appECMHV2.resources.dll" target="lib\netstandard2.0\es\appECMHV2.resources.dll" />
+    <file src="Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2\bin\Release\netstandard2.0\appECMHV2.dll" target="lib\netstandard2.0\appECMHV2.dll" />
+  </files>
+</package>

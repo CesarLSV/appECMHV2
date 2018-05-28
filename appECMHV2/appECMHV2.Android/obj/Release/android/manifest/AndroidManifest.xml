@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.monicaherrera.edu.sv" android:installLocation="auto">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="Beta" package="com.monicaherrera.edu.sv" android:installLocation="auto">
   <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="27" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-  <application android:label="appECMHV2.Android" android:icon="@drawable/ic_launcher" android:name="android.app.Application" android:allowBackup="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="App1" android:screenOrientation="portrait" android:theme="@style/MainTheme" android:name="md58ad13bb77b3b4798e4e714fc90dd440a.MainActivity" />
+  <application android:debuggable="false" android:label="ECMH" android:icon="@drawable/logomonica" android:name="android.app.Application" android:allowBackup="true">
+    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="App1" android:theme="@style/MainTheme" android:name="md58ad13bb77b3b4798e4e714fc90dd440a.MainActivity" />
     <activity android:icon="@drawable/logomonica" android:label="ECMH" android:noHistory="true" android:theme="@style/Theme.Splash" android:name="md58ad13bb77b3b4798e4e714fc90dd440a.SplashActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
