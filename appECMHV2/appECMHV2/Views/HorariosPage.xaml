@@ -7,9 +7,10 @@
              Title="Mis Horarios">
     <ContentPage.Content>
         <StackLayout
-            BackgroundColor="#4f6e88"
+            BackgroundColor="#333333"
              BindingContext="{Binding Horarios}">
             <SearchBar
+                BackgroundColor="White"
                 HeightRequest="46"
                 Text="{Binding Filter, Mode=TwoWay}"
                 Placeholder="Search..."
@@ -18,7 +19,7 @@
             </SearchBar>
 
             <ListView 
-                BackgroundColor="#4f6e88"
+                BackgroundColor="#333333"
                 HasUnevenRows="true" 
                 IsPullToRefreshEnabled="true"
                 IsRefreshing="{Binding IsRefreshing, Mode=TwoWay}"
@@ -29,36 +30,33 @@
                     <DataTemplate>
                         <ViewCell>
                             <Frame
-                                CornerRadius="5"
+                                CornerRadius="0"
                                 HasShadow="true"
-                                Margin="5">
+                                Margin="5"
+                                 Padding="0">
 
-                                <Grid>
-                                    <Grid.ColumnDefinitions>
+                                <StackLayout 
+                                        BackgroundColor="White"
+                                        Orientation="Vertical">
 
-                                        <ColumnDefinition Width="Auto"/>
+                                    <StackLayout 
+                                        BackgroundColor="#cccccc"
+                                        Orientation="Horizontal"
+                                        Padding="5">
 
-
-                                    </Grid.ColumnDefinitions>
-
-                                    <Grid.RowDefinitions>
-
-                                        <RowDefinition Height="Auto"/>
-                                        <RowDefinition Height="Auto"/>
-                                        <RowDefinition Height="Auto"/>
-
-                                    </Grid.RowDefinitions>
-
-
-                                    <Label 
+                                        <Label 
                                             Grid.Row="0"
                                             FontAttributes="Bold"
                                             FontSize="Medium" 
                                             Text="{Binding EventLongName}"
-                                            TextColor="Black">
-                                    </Label>
+                                            TextColor="#eb2629"
+                                            VerticalOptions="CenterAndExpand">
+                                        </Label>
+                                    </StackLayout>
 
-
+                                    <StackLayout 
+                                        Orientation="Horizontal"
+                                        Padding="5">
                                     <Label 
                                         Grid.Row="1"
                                         FontSize="Medium" 
@@ -66,20 +64,23 @@
                                         TextColor="Black">
 
                                     </Label>
+                                    </StackLayout>
 
 
-                                    <Label 
-                                        Grid.Row="2"
-                                        FontSize="Medium" 
-                                        Text="{Binding HorariosProcesados}"
-                                        TextColor="Black">
-                                    </Label>
+                                    <StackLayout 
+                                        Orientation="Horizontal"
+                                        Padding="5">
+                                        <Label 
+                                            Grid.Row="2"
+                                            FontSize="Medium" 
+                                            Text="{Binding HorariosProcesados}"
+                                            TextColor="Black">
+                                        </Label>
 
 
+                                    </StackLayout>
 
-                                </Grid>
-
-
+                                </StackLayout>
 
                             </Frame>
                         </ViewCell>
