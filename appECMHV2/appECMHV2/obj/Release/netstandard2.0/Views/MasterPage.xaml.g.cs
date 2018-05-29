@@ -13,7 +13,7 @@
 namespace appECMHV2.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\MasterPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/MasterPage.xaml")]
     public partial class MasterPage : global::Xamarin.Forms.MasterDetailPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

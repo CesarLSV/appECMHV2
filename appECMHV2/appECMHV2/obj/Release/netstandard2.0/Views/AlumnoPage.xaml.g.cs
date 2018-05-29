@@ -13,7 +13,7 @@
 namespace appECMHV2.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\AlumnoPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/AlumnoPage.xaml")]
     public partial class AlumnoPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
