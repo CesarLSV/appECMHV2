@@ -93,8 +93,8 @@ namespace appECMHV2.ViewModels
             this.IsEnabled = true;
             // this.IsRunning = true;
 
-            this.Usuario = "susana.rivera";
-            this.Clave = "Gaju3970";
+            //this.Usuario = "susana.rivera";
+            //this.Clave = "Gaju3970";
 
 
         }

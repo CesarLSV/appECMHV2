@@ -5,10 +5,12 @@ using System.Text;
 
 using Android.App;
 using Android.Content;
+using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Xamarin.Forms;
 
 namespace appECMHV2.Droid
 {
@@ -35,6 +37,17 @@ namespace appECMHV2.Droid
         protected override void OnCreate(Bundle savedInstanceState)
         {
             instance = this;
+
+
+            switch (Device.Idiom)
+            {
+                case TargetIdiom.Phone:
+                    RequestedOrientation = ScreenOrientation.Portrait;
+                    break;
+                case TargetIdiom.Tablet:
+                    RequestedOrientation = ScreenOrientation.Landscape;
+                    break;
+            }
 
             base.OnCreate(savedInstanceState);
             System.Threading.Thread.Sleep(1800);
