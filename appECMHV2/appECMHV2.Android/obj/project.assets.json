@@ -1323,31 +1323,34 @@
     ]
   },
   "packageFolders": {
-    "/Users/administrator/.nuget/packages/": {}
+    "C:\\Users\\clopez\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/administrator/Documents/CL/appECMHV2/appECMHV2/appECMHV2.Android/appECMHV2.Android.csproj",
+      "projectUniqueName": "Z:\\Proyectos_2018\\Movil\\App\\appECMHV2\\appECMHV2\\appECMHV2.Android\\appECMHV2.Android.csproj",
       "projectName": "appECMHV2.Android",
-      "projectPath": "/Users/administrator/Documents/CL/appECMHV2/appECMHV2/appECMHV2.Android/appECMHV2.Android.csproj",
-      "packagesPath": "/Users/administrator/.nuget/packages/",
-      "outputPath": "/Users/administrator/Documents/CL/appECMHV2/appECMHV2/appECMHV2.Android/obj",
+      "projectPath": "Z:\\Proyectos_2018\\Movil\\App\\appECMHV2\\appECMHV2\\appECMHV2.Android\\appECMHV2.Android.csproj",
+      "packagesPath": "C:\\Users\\clopez\\.nuget\\packages\\",
+      "outputPath": "Z:\\Proyectos_2018\\Movil\\App\\appECMHV2\\appECMHV2\\appECMHV2.Android\\obj\\",
       "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/administrator/.config/NuGet/NuGet.Config"
+        "C:\\Users\\clopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid81"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/administrator/Documents/CL/appECMHV2/appECMHV2/appECMHV2/appECMHV2.csproj": {
-              "projectPath": "/Users/administrator/Documents/CL/appECMHV2/appECMHV2/appECMHV2/appECMHV2.csproj"
+            "Z:\\Proyectos_2018\\Movil\\App\\appECMHV2\\appECMHV2\\appECMHV2\\appECMHV2.csproj": {
+              "projectPath": "Z:\\Proyectos_2018\\Movil\\App\\appECMHV2\\appECMHV2\\appECMHV2\\appECMHV2.csproj"
             }
           }
         }
@@ -1358,55 +1361,55 @@
         "dependencies": {
           "MvvmLightLibs": {
             "target": "Package",
-            "version": "5.4.1"
+            "version": "[5.4.1, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "11.0.2"
+            "version": "[11.0.2, )"
           },
           "Xam.Plugin.Connectivity": {
             "target": "Package",
-            "version": "3.1.1"
+            "version": "[3.1.1, )"
           },
           "Xam.Plugins.Settings": {
             "target": "Package",
-            "version": "3.1.1"
-          },
-          "Xamarin.Azure.NotificationHubs.Android": {
-            "target": "Package",
-            "version": "0.4.0"
-          },
-          "Xamarin.Firebase.Messaging": {
-            "target": "Package",
-            "version": "60.1142.1"
-          },
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "3.0.0.446417"
+            "version": "[3.1.1, )"
           },
           "Xamarin.Android.Support.Design": {
             "target": "Package",
-            "version": "27.0.2"
-          },
-          "Xamarin.Android.Support.v7.AppCompat": {
-            "target": "Package",
-            "version": "27.0.2"
+            "version": "[27.0.2, )"
           },
           "Xamarin.Android.Support.v4": {
             "target": "Package",
-            "version": "27.0.2"
+            "version": "[27.0.2, )"
+          },
+          "Xamarin.Android.Support.v7.AppCompat": {
+            "target": "Package",
+            "version": "[27.0.2, )"
           },
           "Xamarin.Android.Support.v7.CardView": {
             "target": "Package",
-            "version": "27.0.2"
+            "version": "[27.0.2, )"
           },
           "Xamarin.Android.Support.v7.MediaRouter": {
             "target": "Package",
-            "version": "27.0.2"
+            "version": "[27.0.2, )"
+          },
+          "Xamarin.Azure.NotificationHubs.Android": {
+            "target": "Package",
+            "version": "[0.4.0, )"
+          },
+          "Xamarin.Firebase.Messaging": {
+            "target": "Package",
+            "version": "[60.1142.1, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[3.0.0.446417, )"
           },
           "Xamarin.GooglePlayServices.Base": {
             "target": "Package",
-            "version": "60.1142.1"
+            "version": "[60.1142.1, )"
           }
         }
       }

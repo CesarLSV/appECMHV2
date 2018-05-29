@@ -13,7 +13,7 @@
 namespace appECMHV2.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/HorariosPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\HorariosPage.xaml")]
     public partial class HorariosPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

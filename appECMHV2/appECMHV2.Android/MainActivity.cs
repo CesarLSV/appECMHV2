@@ -6,7 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using Xamarin.Forms;
+
 
 namespace appECMHV2.Droid
 {
@@ -17,16 +17,7 @@ namespace appECMHV2.Droid
         protected override void OnCreate(Bundle bundle)
         {
 
-            switch (Device.Idiom)
-            {
-                case TargetIdiom.Phone:
-                    RequestedOrientation = ScreenOrientation.Portrait;
-                    break;
-                case TargetIdiom.Tablet:
-                    RequestedOrientation = ScreenOrientation.Landscape;
-                    break;
-            }
-
+         
 
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;

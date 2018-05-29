@@ -13,7 +13,7 @@
 namespace appECMHV2.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/NotasPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\NotasPage.xaml")]
     public partial class NotasPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

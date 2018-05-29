@@ -1,4 +1,6 @@
 appECMHV2
+System.Runtime
+netstandard
 CommonServiceLocator
 FormsViewGroup
 GalaSoft.MvvmLight
@@ -9,7 +11,6 @@ Plugin.Connectivity.Abstractions
 Plugin.Connectivity
 Plugin.Settings.Abstractions
 Plugin.Settings
-System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
 Xamarin.Android.Arch.Lifecycle.Runtime
@@ -40,7 +41,6 @@ Xamarin.Forms.Xaml
 Xamarin.GooglePlayServices.Base
 Xamarin.GooglePlayServices.Basement
 Xamarin.GooglePlayServices.Tasks
-netstandard
 System.Resources.ResourceManager
 System.ComponentModel
 System.Reflection.Extensions

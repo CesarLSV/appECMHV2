@@ -121,6 +121,7 @@
 /Users/administrator/Documents/CL/appECMHV2/appECMHV2/appECMHV2.Android/obj/Release/linksrc/Plugin.Settings.Abstractions.dll.mdb
 /Users/administrator/Documents/CL/appECMHV2/appECMHV2/appECMHV2.Android/obj/Release/linksrc/Plugin.Settings.dll.mdb
 /Users/administrator/Documents/CL/appECMHV2/appECMHV2/appECMHV2.Android/obj/Release/linksrc/Xamarin.Forms.Platform.Android.dll.mdb
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\appECMHV2.Android.csprojAssemblyReference.cache
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\bin\Release\appECMHV2.Android.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\bin\Release\appECMHV2.Android.pdb
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\bin\Release\com.monicaherrera.edu.sv.apk
@@ -128,7 +129,6 @@ Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\bin\Release\co
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\bin\Release\appECMHV2.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\bin\Release\appECMHV2.pdb
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\bin\Release\es\appECMHV2.resources.dll
-Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\appECMHV2.Android.csprojAssemblyReference.cache
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\XbdMerge\Xamarin.GooglePlayServices.Basement.dll.stamp
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\XbdMerge\Xamarin.GooglePlayServices.Tasks.dll.stamp
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\XbdMerge\Xamarin.GooglePlayServices.Base.dll.stamp
@@ -142,7 +142,6 @@ Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\Xb
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\XbdMerge\1f4fd9cc.proguard.stamp
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\XbdMerge\d9f2c52f.proguard.stamp
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\XbdMerge\04db0838.proguard.stamp
-Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\googsvcsjson\values\goog_svcs_json.xml
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\appECMHV2.Android.csproj.CoreCompileInputs.cache
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\appECMHV2.Android.csproj.CopyComplete
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\appECMHV2.Android.dll
