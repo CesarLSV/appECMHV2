@@ -37,16 +37,16 @@
         public string Carrera { get; set; }
 
         [JsonProperty("PrimerParcial")]
-        public double? PrimerParcial { get; set; }
+        public string PrimerParcial { get; set; }
 
         [JsonProperty("SegundoParcial")]
-        public double? SegundoParcial { get; set; }
+        public string SegundoParcial { get; set; }
 
         [JsonProperty("EvaluacionFinal")]
-        public double? EvaluacionFinal { get; set; }
+        public string EvaluacionFinal { get; set; }
 
         [JsonProperty("Promedio")]
-        public double? Promedio { get; set; }
+        public string Promedio { get; set; }
 
         #region Command
 

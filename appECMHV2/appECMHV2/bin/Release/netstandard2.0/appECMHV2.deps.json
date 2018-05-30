@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "acd910acc4a91779740463f428494bf68fd5396b"
+    "signature": "775d8e5a51b7bd4e335822aa78cc5c05cdf52248"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,7 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "appECMHV2/1.0.0": {
         "dependencies": {
-          "MvvmLightLibs": "5.4.1",
+          "MvvmLightLibsStd10": "5.4.1",
           "NETStandard.Library": "2.0.1",
           "Newtonsoft.Json": "11.0.2",
           "Xam.Plugin.Connectivity": "3.1.1",
@@ -26,12 +26,9 @@
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
-      "MvvmLightLibs/5.4.1": {
+      "MvvmLightLibsStd10/5.4.1": {
         "runtime": {
-          "lib/net45/GalaSoft.MvvmLight.Extras.dll": {},
-          "lib/net45/GalaSoft.MvvmLight.Platform.dll": {},
-          "lib/net45/GalaSoft.MvvmLight.dll": {},
-          "lib/net45/System.Windows.Interactivity.dll": {}
+          "lib/netstandard1.0/GalaSoft.MvvmLight.dll": {}
         }
       },
       "NETStandard.Library/2.0.1": {
@@ -84,12 +81,12 @@
       "path": "microsoft.netcore.platforms/1.1.0",
       "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
     },
-    "MvvmLightLibs/5.4.1": {
+    "MvvmLightLibsStd10/5.4.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-eh2cvxDG78CQ6tfkCAW9Y7H1lQ+iV8U+XI7WDXn8BoDhZrr43hDPJyEJwoZ1yeybEDnQTaiRTavlAxf6CHeNUg==",
-      "path": "mvvmlightlibs/5.4.1",
-      "hashPath": "mvvmlightlibs.5.4.1.nupkg.sha512"
+      "sha512": "sha512-tcxfwH7ollbkZKS6m+cXlYn3TpMxlVvZZcUsP81KI979nqJ9JA02PewxOR3AwbgMeE39fQSNcMJ8lSQKNQGrhg==",
+      "path": "mvvmlightlibsstd10/5.4.1",
+      "hashPath": "mvvmlightlibsstd10.5.4.1.nupkg.sha512"
     },
     "NETStandard.Library/2.0.1": {
       "type": "package",

@@ -108,10 +108,8 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "appECMHV2.Android.dll" comes first in this list. */
 		"appECMHV2.Android.dll",
 		"appECMHV2.dll",
-		"CommonServiceLocator.dll",
 		"FormsViewGroup.dll",
 		"GalaSoft.MvvmLight.dll",
-		"GalaSoft.MvvmLight.Extras.dll",
 		"GalaSoft.MvvmLight.Platform.dll",
 		"Newtonsoft.Json.dll",
 		"Plugin.Connectivity.Abstractions.dll",

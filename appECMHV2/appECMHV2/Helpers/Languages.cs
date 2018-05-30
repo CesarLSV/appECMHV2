@@ -91,5 +91,20 @@ namespace appECMHV2.Helpers
         }
 
 
+        public static string authentication
+        {
+            get { return Resource.authentication; }
+        }
+        public static string start
+        {
+            get { return Resource.start; }
+        }
+        public static string detail
+        {
+            get { return Resource.detail; }
+        }
+
+        
+
     }
 }

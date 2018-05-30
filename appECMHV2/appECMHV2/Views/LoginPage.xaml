@@ -5,7 +5,7 @@
              x:Class="appECMHV2.Views.LoginPage"
              BindingContext="{Binding Main, Source={StaticResource Locator}}"
              BackgroundColor="#cccccc"
-             Title="Inicio">
+             Title="{i18n:Translate authentication}">
     <ContentPage.Content>
         <ScrollView
             BindingContext="{Binding Login}">

@@ -174,4 +174,13 @@
   <data name="useyourecmhuser" xml:space="preserve">
     <value>Use your ECMH username and password to log in.</value>
   </data>
+  <data name="authentication" xml:space="preserve">
+    <value>Authentication</value>
+  </data>
+  <data name="start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="detail" xml:space="preserve">
+    <value>Detail</value>
+  </data>
 </root>

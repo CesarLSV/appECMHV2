@@ -5,7 +5,7 @@
              x:Class="appECMHV2.Views.AlumnoPage"
              BackgroundColor="White"
              BindingContext="{Binding Main, Source={StaticResource Locator}}"
-             Title="Mónico">
+             Title="{i18n:Translate start}">
     <ContentPage.Content>
         <ScrollView
              BindingContext="{Binding Alumno}">
@@ -24,7 +24,7 @@
 
                     </Image>
 
-                    <Label             
+                    <!--<Label             
                         FontAttributes="Bold"
                         FontSize="Large"
                         Text="{i18n:Translate welcome}"
@@ -32,7 +32,7 @@
                         VerticalOptions="CenterAndExpand"
                         HorizontalOptions="Center">
 
-                    </Label>
+                    </Label>-->
                     
                 </StackLayout>
                 <StackLayout

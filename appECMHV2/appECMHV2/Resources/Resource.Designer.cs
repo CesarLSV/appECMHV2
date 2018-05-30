@@ -79,11 +79,29 @@ namespace appECMHV2.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Authentication.
+        /// </summary>
+        internal static string authentication {
+            get {
+                return ResourceManager.GetString("authentication", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Available options.
         /// </summary>
         internal static string availableoptions {
             get {
                 return ResourceManager.GetString("availableoptions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Detail.
+        /// </summary>
+        internal static string detail {
+            get {
+                return ResourceManager.GetString("detail", resourceCulture);
             }
         }
         
@@ -183,6 +201,15 @@ namespace appECMHV2.Resources {
         internal static string rememberme {
             get {
                 return ResourceManager.GetString("rememberme", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Start.
+        /// </summary>
+        internal static string start {
+            get {
+                return ResourceManager.GetString("start", resourceCulture);
             }
         }
         
