@@ -1,12 +1,16 @@
 ﻿<Properties StartupConfiguration="{20B34E61-2339-4371-92C2-ABA01454CF88}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="appECMHV2/appECMHV2.iOS/AppDelegate.cs">
     <Files>
-      <File FileName="appECMHV2/appECMHV2.iOS/Entitlements.plist" />
-      <File FileName="appECMHV2/appECMHV2.iOS/Info.plist" />
+      <File FileName="appECMHV2/appECMHV2.iOS/Main.cs" Line="21" Column="1" />
+      <File FileName="appECMHV2/appECMHV2.iOS/AppDelegate.cs" Line="43" Column="1" />
+      <File FileName="appECMHV2/appECMHV2/App.xaml" Line="13" Column="15" />
+      <File FileName="appECMHV2/appECMHV2/App.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.ItemProperties.ECMHV2.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" automaticSigning="False" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.ItemProperties.ECMHV2.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B145B2EF-7412-40D8-AA85-D59F3DD852BA" automaticSigning="True">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="ZP7NJ4DPX7" TeamId="2BP5GF7CB2" />
+  </MonoDevelop.Ide.ItemProperties.ECMHV2.iOS>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

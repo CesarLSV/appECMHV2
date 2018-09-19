@@ -6105,34 +6105,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\clopez\\.nuget\\packages\\": {}
+    "/Users/monitor/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\Proyectos_2018\\Movil\\App\\appECMHV2\\appECMHV2\\appECMHV2.iOS\\ECMHV2.iOS.csproj",
+      "projectUniqueName": "/Users/monitor/Documents/CL2/appECMHV2/appECMHV2/appECMHV2.iOS/ECMHV2.iOS.csproj",
       "projectName": "ECMHV2.iOS",
-      "projectPath": "Z:\\Proyectos_2018\\Movil\\App\\appECMHV2\\appECMHV2\\appECMHV2.iOS\\ECMHV2.iOS.csproj",
-      "packagesPath": "C:\\Users\\clopez\\.nuget\\packages\\",
-      "outputPath": "Z:\\Proyectos_2018\\Movil\\App\\appECMHV2\\appECMHV2\\appECMHV2.iOS\\obj\\",
+      "projectPath": "/Users/monitor/Documents/CL2/appECMHV2/appECMHV2/appECMHV2.iOS/ECMHV2.iOS.csproj",
+      "packagesPath": "/Users/monitor/.nuget/packages/",
+      "outputPath": "/Users/monitor/Documents/CL2/appECMHV2/appECMHV2/appECMHV2.iOS/obj",
       "projectStyle": "PackageReference",
-      "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\clopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/monitor/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "Z:\\Proyectos_2018\\Movil\\App\\appECMHV2\\appECMHV2\\appECMHV2\\appECMHV2.csproj": {
-              "projectPath": "Z:\\Proyectos_2018\\Movil\\App\\appECMHV2\\appECMHV2\\appECMHV2\\appECMHV2.csproj"
+            "/Users/monitor/Documents/CL2/appECMHV2/appECMHV2/appECMHV2/appECMHV2.csproj": {
+              "projectPath": "/Users/monitor/Documents/CL2/appECMHV2/appECMHV2/appECMHV2/appECMHV2.csproj"
             }
           }
         }
@@ -6143,27 +6140,27 @@
         "dependencies": {
           "Com.OneSignal": {
             "target": "Package",
-            "version": "[3.2.0, )"
+            "version": "3.2.0"
           },
           "Microcharts.Forms": {
             "target": "Package",
-            "version": "[0.8.3-pre, )"
+            "version": "0.8.3-pre"
           },
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "[11.0.2, )"
+            "version": "11.0.2"
           },
           "Xam.Plugin.Connectivity": {
             "target": "Package",
-            "version": "[3.1.1, )"
+            "version": "3.1.1"
           },
           "Xam.Plugins.Settings": {
             "target": "Package",
-            "version": "[3.1.1, )"
+            "version": "3.1.1"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.0.0.446417, )"
+            "version": "3.0.0.446417"
           }
         }
       }

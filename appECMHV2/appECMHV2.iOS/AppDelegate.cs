@@ -5,6 +5,8 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
+
+
 namespace appECMHV2.iOS
 {
     // The UIApplicationDelegate for the application. This class is responsible for launching the 
@@ -23,9 +25,18 @@ namespace appECMHV2.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new App());
+            
+
+			LoadApplication(new App());
+            //OneSignal.Current.StartInit("28ee355b-c341-4d30-a51e-e404526823dc").EndInit();
 
             return base.FinishedLaunching(app, options);
+        }
+
+        [Export("oneSignalApplicationDidBecomeActive:")]
+        public void OneSignalApplicationDidBecomeActive(UIApplication application)
+        {
+            Console.WriteLine("oneSignalApplicationDidBecomeActive:");
         }
     }
 }

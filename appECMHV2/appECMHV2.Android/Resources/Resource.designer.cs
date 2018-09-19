@@ -4330,15 +4330,6 @@ namespace appECMHV2.Droid
 			// aapt resource value: 0x7f0a000f
 			public const int common_signin_button_text_long = 2131361807;
 			
-			// aapt resource value: 0x7f0a004f
-			public const int firebase_database_url = 2131361871;
-			
-			// aapt resource value: 0x7f0a004e
-			public const int gcm_defaultSenderId = 2131361870;
-			
-			// aapt resource value: 0x7f0a0050
-			public const int google_storage_bucket = 2131361872;
-			
 			// aapt resource value: 0x7f0a004d
 			public const int library_name = 2131361869;
 			

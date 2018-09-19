@@ -38,14 +38,6 @@ public class ChartView
 			mono.android.TypeManager.Activate ("Microcharts.Droid.ChartView, Microcharts.Droid", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2 });
 	}
 
-
-	public ChartView (android.content.Context p0, android.util.AttributeSet p1, int p2, int p3)
-	{
-		super (p0, p1, p2, p3);
-		if (getClass () == ChartView.class)
-			mono.android.TypeManager.Activate ("Microcharts.Droid.ChartView, Microcharts.Droid", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2, p3 });
-	}
-
 	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{

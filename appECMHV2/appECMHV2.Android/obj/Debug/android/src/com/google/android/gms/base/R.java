@@ -3796,9 +3796,6 @@ containing a value of this type.
         public static int common_open_on_phone=0x7f0a000d;
         public static int common_signin_button_text=0x7f0a000e;
         public static int common_signin_button_text_long=0x7f0a000f;
-        public static int firebase_database_url=0x7f0a004f;
-        public static int gcm_defaultSenderId=0x7f0a004e;
-        public static int google_storage_bucket=0x7f0a0050;
         public static int library_name=0x7f0a004d;
         public static int mr_button_content_description=0x7f0a0011;
         public static int mr_cast_button_connected=0x7f0a0012;

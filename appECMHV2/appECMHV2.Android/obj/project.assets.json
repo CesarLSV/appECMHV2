@@ -1464,34 +1464,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\clopez\\.nuget\\packages\\": {}
+    "/Users/monitor/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\Proyectos_2018\\Movil\\App\\appECMHV2\\appECMHV2\\appECMHV2.Android\\appECMHV2.Android.csproj",
+      "projectUniqueName": "/Users/monitor/Documents/CL2/appECMHV2/appECMHV2/appECMHV2.Android/appECMHV2.Android.csproj",
       "projectName": "appECMHV2.Android",
-      "projectPath": "Z:\\Proyectos_2018\\Movil\\App\\appECMHV2\\appECMHV2\\appECMHV2.Android\\appECMHV2.Android.csproj",
-      "packagesPath": "C:\\Users\\clopez\\.nuget\\packages\\",
-      "outputPath": "Z:\\Proyectos_2018\\Movil\\App\\appECMHV2\\appECMHV2\\appECMHV2.Android\\obj\\",
+      "projectPath": "/Users/monitor/Documents/CL2/appECMHV2/appECMHV2/appECMHV2.Android/appECMHV2.Android.csproj",
+      "packagesPath": "/Users/monitor/.nuget/packages/",
+      "outputPath": "/Users/monitor/Documents/CL2/appECMHV2/appECMHV2/appECMHV2.Android/obj",
       "projectStyle": "PackageReference",
-      "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\clopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/monitor/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid81"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "Z:\\Proyectos_2018\\Movil\\App\\appECMHV2\\appECMHV2\\appECMHV2\\appECMHV2.csproj": {
-              "projectPath": "Z:\\Proyectos_2018\\Movil\\App\\appECMHV2\\appECMHV2\\appECMHV2\\appECMHV2.csproj"
+            "/Users/monitor/Documents/CL2/appECMHV2/appECMHV2/appECMHV2/appECMHV2.csproj": {
+              "projectPath": "/Users/monitor/Documents/CL2/appECMHV2/appECMHV2/appECMHV2/appECMHV2.csproj"
             }
           }
         }
@@ -1502,47 +1499,47 @@
         "dependencies": {
           "Com.OneSignal": {
             "target": "Package",
-            "version": "[3.2.0, )"
+            "version": "3.2.0"
           },
           "Microcharts.Forms": {
             "target": "Package",
-            "version": "[0.8.3-pre, )"
+            "version": "0.8.3-pre"
           },
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "[11.0.2, )"
+            "version": "11.0.2"
           },
           "Xam.Plugin.Connectivity": {
             "target": "Package",
-            "version": "[3.1.1, )"
+            "version": "3.1.1"
           },
           "Xam.Plugins.Settings": {
             "target": "Package",
-            "version": "[3.1.1, )"
-          },
-          "Xamarin.Android.Support.Design": {
-            "target": "Package",
-            "version": "[27.0.2, )"
-          },
-          "Xamarin.Android.Support.v4": {
-            "target": "Package",
-            "version": "[27.0.2, )"
-          },
-          "Xamarin.Android.Support.v7.AppCompat": {
-            "target": "Package",
-            "version": "[27.0.2, )"
-          },
-          "Xamarin.Android.Support.v7.CardView": {
-            "target": "Package",
-            "version": "[27.0.2, )"
-          },
-          "Xamarin.Android.Support.v7.MediaRouter": {
-            "target": "Package",
-            "version": "[27.0.2, )"
+            "version": "3.1.1"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.0.0.446417, )"
+            "version": "3.0.0.446417"
+          },
+          "Xamarin.Android.Support.Design": {
+            "target": "Package",
+            "version": "27.0.2"
+          },
+          "Xamarin.Android.Support.v7.AppCompat": {
+            "target": "Package",
+            "version": "27.0.2"
+          },
+          "Xamarin.Android.Support.v4": {
+            "target": "Package",
+            "version": "27.0.2"
+          },
+          "Xamarin.Android.Support.v7.CardView": {
+            "target": "Package",
+            "version": "27.0.2"
+          },
+          "Xamarin.Android.Support.v7.MediaRouter": {
+            "target": "Package",
+            "version": "27.0.2"
           }
         }
       }
