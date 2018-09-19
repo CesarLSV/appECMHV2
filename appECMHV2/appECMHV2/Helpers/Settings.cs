@@ -19,6 +19,7 @@ namespace appECMHV2.Helpers
         const string tokenType = "TokenType";
         static readonly string stringDefault = string.Empty;
 
+
         public static string Token
         {
             get

@@ -97,8 +97,13 @@
                         BackgroundColor="#eb2629"
                         Command="{Binding LoginCommand}"
                         IsEnabled="{Binding IsEnabled, Mode=TwoWay}"
-                        Text="{i18n:Translate enter}"
-                        TextColor="White" >
+                        TextColor="White" 
+                        WidthRequest="80"
+                        HeightRequest="80"
+                        BorderRadius="40"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                        Image="ic_lock_open">
 
                     </Button>
 

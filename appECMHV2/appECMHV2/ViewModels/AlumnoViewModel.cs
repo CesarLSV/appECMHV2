@@ -1,8 +1,12 @@
 ﻿namespace appECMHV2.ViewModels
 {
+    
+    using Com.OneSignal;
+    using Com.OneSignal.Abstractions;
     using GalaSoft.MvvmLight.Command;
     using Models;
     using Services;
+    using System;
     using System.Collections.Generic;
     using System.Collections.ObjectModel;
     using System.Windows.Input;
@@ -24,6 +28,8 @@
 
         private bool isRunning;
         private bool isEnabled;
+       
+
         #endregion
 
         #region Properties
@@ -46,8 +52,9 @@
             get { return this.isEnabled; }
             set { SetValue(ref this.isEnabled, value); }
         }
-
-
+              
+        public string IdPlayer { get; set; }
+        public string IdDevice { get; set; }
         #endregion
 
 
@@ -114,14 +121,80 @@
 
             this.ListaLoggedUser = (List<LoggedUser>)response.Result;
             this.LoggedUser = new ObservableCollection<LoggedUser>(this.ListaLoggedUser);
+            // Se registra si ya hay una sesion iniciada. 
+            //OneSignal.Current.StartInit("28ee355b-c341-4d30-a51e-e404526823dc")
+            //  .EndInit();
+            
+
+            OneSignal.Current.IdsAvailable(new Com.OneSignal.Abstractions.IdsAvailableCallback((PlayerID, pushToken) =>
+            {
+                //IdPlayer = $"Player ID de este device:\n{PlayerID}";
+                IdPlayer = PlayerID;
+
+            }));
+
+            
+        //public abstract void GetTags(TagsReceived inTagsReceivedDelegate);
+
+        var respuesta = await apiService.PostRegistrarPlayerID<MHorarios>(
+               "https://sigecmh.monicaherrera.edu.sv/apiECMH/api/data/playerID",
+               "bearer",
+               MainViewModel.GetInstance().Token,
+               this.IdPlayer,
+               this.IdDevice);
+
+
             //this.IsRefreshing = false;
 
+            //  ShowPlayerIdHandler();
             //this.Notas = new ObservableCollection<Notas>(this.NotasLista);
             //this.IsRefreshing = false;
 
             this.IsRunning = false;
             this.IsEnabled = true;
         }
+
+        
+
+        private void TagsReceived(Dictionary<string, object> tags)
+        {
+            foreach (var tag in tags)
+                Console.WriteLine(tag.Key + ":" + tag.Value);
+        }
+
+
+        //private static void TagsReceived(Dictionary<string, object> tags)
+        //{
+        //    foreach (var tag in tags)
+        //      Console.WriteLine(tag.Key + ":" + tag.Value);
+        //}
+
+
+        //Llamado desde un boton 
+        // <Button x:Name="showPlayerIdButton" Text="Mostrar Player Id" VerticalOptions="Center" HorizontalOptions="Center" Clicked="ShowPlayerIdHandler" />
+        private async void ShowPlayerIdHandler()
+        {
+          
+
+            OneSignal.Current.IdsAvailable(new Com.OneSignal.Abstractions.IdsAvailableCallback((Device, pushToken) =>
+            {
+
+
+                //IdPlayer = $"Player ID de este device:\n{PlayerID}";
+                IdDevice = Device;
+
+            }));
+
+
+
+           
+
+
+           
+
+
+        }
+
         #endregion
 
         #region Command

@@ -1,5 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="2" android:versionName="Beta2" package="com.ecmh.edu.sv" android:installLocation="auto">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="2" android:versionName="Beta2" package="com.appecmh.com" android:installLocation="auto">
 	<uses-sdk android:minSdkVersion="19" android:targetSdkVersion="27" />
-	<application android:debuggable="false" android:label="ECMH" android:icon="@drawable/logomonica"></application>
+	<permission android:name="com.appecmh.com.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+	<uses-permission android:name="com.appecmh.com.permission.C2D_MESSAGE" />
+	<application android:debuggable="false" android:label="ECMH" android:icon="@drawable/logomonica">
+
+    <receiver android:name="com.onesignal.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+      <intent-filter>
+        <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+        <category android:name="com.appecmh.com" />
+      </intent-filter>
+    </receiver>
+    
+  </application>
 </manifest>

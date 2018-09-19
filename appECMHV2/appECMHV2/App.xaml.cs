@@ -4,6 +4,7 @@ namespace appECMHV2
     using Xamarin.Forms;
     using Helpers;
     using ViewModels;
+    using Com.OneSignal;
 
     public partial class App : Application
     {
@@ -29,13 +30,20 @@ namespace appECMHV2
         public App()
         {
             InitializeComponent();
+            OneSignal.Current.StartInit("28ee355b-c341-4d30-a51e-e404526823dc")
+               .EndInit();
+
 
             // MainPage = new MasterPage();
             // MainPage = new NavigationPage(new LoginPage());
             if (string.IsNullOrEmpty(Settings.Token))
 
             {
-                this.MainPage = new NavigationPage(new LoginPage());
+                //this.MainPage = new NavigationPage(new LoginPage());
+                this.MainPage = new NavigationPage(new InicioPage());
+               //MainViewModel.GetInstance().Inicio = new InicioViewModel();
+                //this.MainPage = new InicioPage();
+
             }
             else
             {

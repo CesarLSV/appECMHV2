@@ -101,11 +101,23 @@
                                              VerticalOptions="CenterAndExpand">
 
                                         </Label>
+                                            
+                                        </StackLayout>
+                                        <StackLayout>
+                                            <Label
+                                                FontSize="Medium"
+                                                Text="{Binding idPlayer}"
+                                                FontAttributes="Bold"
+                                                TextColor="#e2f1fb"
+                                                BackgroundColor="Red"
+                                                VerticalOptions="CenterAndExpand">
+
+                                            </Label>
                                         </StackLayout>
                                     </StackLayout>
 
 
-
+                                    
 
 
 

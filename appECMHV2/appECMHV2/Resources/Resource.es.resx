@@ -154,7 +154,7 @@
     <value>Ingresa tu usuario</value>
   </data>
   <data name="welcome" xml:space="preserve">
-    <value>BIENVENID@</value>
+    <value>Bienvenido</value>
   </data>
   <data name="availableoptions" xml:space="preserve">
     <value>Opciones disponibles</value>

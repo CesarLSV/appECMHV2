@@ -1,10 +1,11 @@
 ﻿
 namespace appECMHV2.ViewModels
 {
-
+    using Com.OneSignal;
     using GalaSoft.MvvmLight.Command;
     using Helpers;
     using Services;
+    using System;
     using System.Windows.Input;
     using Views;
     using Xamarin.Forms;
@@ -18,7 +19,7 @@ namespace appECMHV2.ViewModels
         // #region Events
         // public event PropertyChangedEventHandler PropertyChanged;
         // #endregion
-
+        
 
         #region Services
         private ApiService apiService;
@@ -221,8 +222,13 @@ namespace appECMHV2.ViewModels
             }
 
 
-
+            
             MainViewModel.GetInstance().Alumno = new AlumnoViewModel();
+           // OneSignal.Current.StartInit("28ee355b-c341-4d30-a51e-e404526823dc")
+            //  .EndInit();
+
+          
+
             // await Application.Current.MainPage.Navigation.PushAsync(new AlumnoPage());
             Application.Current.MainPage = new MasterPage();
 
@@ -241,9 +247,11 @@ namespace appECMHV2.ViewModels
 
 
 
-
         #endregion
 
+        #region Methods
+       
 
+        #endregion
     }
 }

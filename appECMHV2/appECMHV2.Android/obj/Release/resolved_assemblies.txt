@@ -1,5 +1,7 @@
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\appECMHV2.Android.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\appECMHV2.dll
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Com.OneSignal.Abstractions.dll
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Com.OneSignal.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\FormsViewGroup.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\GalaSoft.MvvmLight.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\GalaSoft.MvvmLight.Platform.dll
@@ -7,6 +9,7 @@ Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\an
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Mono.Android.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\mscorlib.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Newtonsoft.Json.dll
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\OneSignal.Android.Binding.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Plugin.Connectivity.Abstractions.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Plugin.Connectivity.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Plugin.Settings.Abstractions.dll
@@ -23,6 +26,7 @@ Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\an
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Xamarin.Android.Support.Compat.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Xamarin.Android.Support.Core.UI.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Xamarin.Android.Support.Core.Utils.dll
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Xamarin.Android.Support.CustomTabs.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Xamarin.Android.Support.Design.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Xamarin.Android.Support.Fragment.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Xamarin.Android.Support.Media.Compat.dll
@@ -34,17 +38,15 @@ Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\an
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Xamarin.Android.Support.v7.Palette.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
-Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Xamarin.Azure.NotificationHubs.Android.dll
-Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Xamarin.Firebase.Common.dll
-Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Xamarin.Firebase.Iid.dll
-Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Xamarin.Firebase.Messaging.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Xamarin.Forms.Core.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Xamarin.Forms.Platform.Android.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Xamarin.Forms.Platform.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Xamarin.Forms.Xaml.dll
-Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Xamarin.GooglePlayServices.Base.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Xamarin.GooglePlayServices.Basement.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Xamarin.GooglePlayServices.Tasks.dll
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Xamarin.GooglePlayServices.Base.dll
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Xamarin.GooglePlayServices.Iid.dll
+Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\Xamarin.GooglePlayServices.Gcm.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\System.Data.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\System.Numerics.dll
 Z:\Proyectos_2018\Movil\App\appECMHV2\appECMHV2\appECMHV2.Android\obj\Release\android\assets\System.Net.Http.dll

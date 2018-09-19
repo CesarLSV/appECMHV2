@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:i18n="clr-namespace:appECMHV2.Helpers"
+             xmlns:charts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+             x:Class="appECMHV2.Views.InicioPage"
+             BindingContext="{Binding Main, Source={StaticResource Locator}}"
+             BackgroundColor="#cccccc"
+             Title="Escuela Mónica Herrera">
+    <ContentPage.Content>
+        <ScrollView
+            BindingContext="{Binding Inicio}">
+        
+
+        <StackLayout>
+               
+            <StackLayout>
+
+                    <charts:ChartView x:Name="chartView1" x:FieldModifier="public"
+                                      HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                                      HeightRequest="300" Chart="{Binding Chart}"/>
+
+
+                    
+                </StackLayout>
+            
+            <StackLayout Padding="5"
+                         Orientation="Horizontal"
+                         Spacing="5">
+                <Button
+                        BackgroundColor="#eb2629"
+                        Text="CIM"
+                        TextColor="White" 
+                        WidthRequest="80"
+                        HeightRequest="80"
+                        BorderRadius="40"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center">
+                
+                </Button>
+               
+            </StackLayout>
+
+
+            <StackLayout Padding="5"
+                         Orientation="Horizontal"
+                         Spacing="5">
+                <Button
+                        BackgroundColor="#eb2629"
+                        Text="CIM"
+                        TextColor="White" 
+                        WidthRequest="80"
+                        HeightRequest="80"
+                        BorderRadius="40"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center">
+
+                </Button>
+                
+            </StackLayout>
+
+
+
+            <StackLayout Padding="5"
+                         Orientation="Horizontal"
+                         Spacing="5">
+                <Button
+                        BackgroundColor="#eb2629"
+                        Text="CIM"
+                        TextColor="White" 
+                        WidthRequest="80"
+                        HeightRequest="80"
+                        BorderRadius="40"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center">
+
+                </Button>
+               
+            </StackLayout>
+            
+            
+
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

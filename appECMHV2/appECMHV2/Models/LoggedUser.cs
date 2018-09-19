@@ -13,5 +13,7 @@ namespace appECMHV2.Models
         [JsonProperty(PropertyName = "Curriculum")]
         public string Curriculum { get; set; }
 
+        public string idPlayer { get; set; }
+
     }
 }

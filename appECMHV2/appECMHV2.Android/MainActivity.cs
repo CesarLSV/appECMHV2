@@ -6,11 +6,11 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-
+using Com.OneSignal;
 
 namespace appECMHV2.Droid
 {
-    [Activity(Label = "App1", Icon = "@mipmap/icon", Theme = "@style/MainTheme", 
+    [Activity(Label = "App1", Icon = "@mipmap/icon", Theme = "@style/MainTheme", ScreenOrientation = ScreenOrientation.Portrait,
         MainLauncher = false,ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
@@ -26,6 +26,10 @@ namespace appECMHV2.Droid
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
+
+            //OneSignal.Current.StartInit("28ee355b-c341-4d30-a51e-e404526823dc")
+            //      .EndInit();
+
         }
     }
 }

@@ -17,6 +17,7 @@ namespace appECMHV2.Droid
     [Activity(Label = "ECMH",
        Icon = "@drawable/logomonica",
        Theme = "@style/Theme.Splash",
+        ScreenOrientation = ScreenOrientation.Portrait,
        MainLauncher = true,
        NoHistory = true)]
 

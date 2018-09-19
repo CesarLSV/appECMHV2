@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "775d8e5a51b7bd4e335822aa78cc5c05cdf52248"
+    "signature": "060dd85adbce54d74e2649a773d7c5e921d53eba"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "appECMHV2/1.0.0": {
         "dependencies": {
+          "Com.OneSignal": "3.2.0",
           "MvvmLightLibsStd10": "5.4.1",
           "NETStandard.Library": "2.0.1",
           "Newtonsoft.Json": "11.0.2",
@@ -23,6 +24,15 @@
           "es/appECMHV2.resources.dll": {
             "locale": "es"
           }
+        }
+      },
+      "Com.OneSignal/3.2.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Com.OneSignal.Abstractions.dll": {},
+          "lib/netstandard1.0/Com.OneSignal.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -73,6 +83,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Com.OneSignal/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-csAvq5O/9nhpUt0riINvBzWzhtCeQ7Mk4ysozl/3Ew/DV7mt7mHTFqMMoGFamlgVO1Ki9VQOgyPnlhBWiZmHdw==",
+      "path": "com.onesignal/3.2.0",
+      "hashPath": "com.onesignal.3.2.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

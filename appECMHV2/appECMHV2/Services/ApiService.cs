@@ -42,17 +42,13 @@ namespace appECMHV2.Services
             };
         }
 
-        public async Task<TokenResponse> GetToken(
-            string urlBase,
-            string username,
-            string password)
+        public async Task<TokenResponse> GetToken(string urlBase,string username,string password)
         {
             try
             {
                 var client = new HttpClient();
                 client.BaseAddress = new Uri(urlBase);
-                var response = await client.PostAsync("Token",
-                    new StringContent(string.Format(
+                var response = await client.PostAsync("Token", new StringContent(string.Format(
                     "grant_type=password&username={0}&password={1}",
                     username, password),
                     Encoding.UTF8, "application/x-www-form-urlencoded"));
@@ -66,6 +62,9 @@ namespace appECMHV2.Services
                 return null;
             }
         }
+
+       
+
 
         public async Task<Response> Get<T>(
             string urlBase,
@@ -178,6 +177,7 @@ namespace appECMHV2.Services
 
         //END By CesarL
 
+
         public async Task<Response> GetList<T>(
             string urlBase,
             string servicePrefix,
@@ -225,6 +225,67 @@ namespace appECMHV2.Services
                 };
             }
         }
+
+
+        public async Task<Response> PostRegistrarPlayerID<T>(
+            string urlBase,
+            string tokenType,
+            string accessToken,
+            string IdPlayer,
+            string IdDevice)
+        {
+            try
+            {
+                var client = new HttpClient();
+                client.DefaultRequestHeaders.Authorization =
+                    new AuthenticationHeaderValue(tokenType, accessToken);
+                client.BaseAddress = new Uri(urlBase);
+                //var url = string.Format("{0}{1}", IdPlayer, IdDevice);
+                var values = new Dictionary<string, string>();
+                values.Add("Dispositivo", "Annoying");
+                values.Add("PlayerID", "Annoying");
+                var content = new FormUrlEncodedContent(values);
+
+                var contento = new FormUrlEncodedContent(
+                new List<KeyValuePair<string, string>>
+                {
+                    new KeyValuePair<string, string>("Dispositivo", IdDevice)
+                }
+
+                );
+
+                StringContent stringContent = new StringContent(
+                "{ \"PlayerID\": \""+IdPlayer+"\", \"Dispositivo\": \""+IdDevice+"\"  }",
+                Encoding.UTF8,
+                "application/json");
+
+                //var myContent = JsonConvert.SerializeObject(content);
+
+                var response = await client.PostAsync("playerID", stringContent);
+
+              
+                var result = await response.Content.ReadAsStringAsync();
+
+                //return result;
+
+
+                // var result =  response.Content.ReadAsStringAsync();
+
+                //CesarL
+                // string s = result.Replace(@"\", string.Empty);
+
+                //string final = s.Trim().Substring(1, (s.Length) - 2);
+                return null;
+
+              
+
+            }
+            catch
+            {
+               return null;
+            }
+        }
+
 
         public async Task<Response> GetList<T>(
             string urlBase,
@@ -517,5 +578,8 @@ namespace appECMHV2.Services
                 };
             }
         }
+
+
+        
     }
 }

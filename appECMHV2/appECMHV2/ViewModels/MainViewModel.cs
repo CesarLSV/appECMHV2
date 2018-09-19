@@ -46,6 +46,12 @@ namespace appECMHV2.ViewModels
             set;
         }
 
+        public InicioViewModel Inicio
+        {
+            get;
+            set;
+        }
+
         #endregion
 
 
@@ -62,6 +68,7 @@ namespace appECMHV2.ViewModels
 
         public string TokenType { get; set; }
 
+        
 
         public TokenResponse UserLog
         {
@@ -80,8 +87,11 @@ namespace appECMHV2.ViewModels
 
         public MainViewModel()
         {
+
+            //Ojo aqui se instancia la loginViewModel
             instance = this;
-            this.Login = new LoginViewModel();
+            //this.Login = new LoginViewModel();
+            this.Inicio = new InicioViewModel();
             this.LoadMenu();
         }
         

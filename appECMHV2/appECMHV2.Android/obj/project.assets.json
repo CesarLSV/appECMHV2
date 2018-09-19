@@ -2,6 +2,53 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v8.1": {
+      "Com.OneSignal/3.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.CustomTabs": "[27.0.0, 27.2.0)",
+          "Xamarin.Android.Support.v4": "[27.0.0, 27.2.0)",
+          "Xamarin.GooglePlayServices.Gcm": "[42.1021.1, 60.1143.0)"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Com.OneSignal.Abstractions.dll": {},
+          "lib/MonoAndroid10/Com.OneSignal.dll": {},
+          "lib/MonoAndroid10/OneSignal.Android.Binding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Com.OneSignal.Abstractions.dll": {},
+          "lib/MonoAndroid10/Com.OneSignal.dll": {},
+          "lib/MonoAndroid10/OneSignal.Android.Binding.dll": {}
+        }
+      },
+      "Microcharts/0.8.3-pre": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views": "1.59.1.1"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Microcharts.Droid.dll": {},
+          "lib/MonoAndroid10/Microcharts.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Microcharts.Droid.dll": {},
+          "lib/MonoAndroid10/Microcharts.dll": {}
+        }
+      },
+      "Microcharts.Forms/0.8.3-pre": {
+        "type": "package",
+        "dependencies": {
+          "Microcharts": "0.8.3-pre",
+          "SkiaSharp.Views.Forms": "1.59.1.1",
+          "System.ValueTuple": "4.4.0",
+          "Xamarin.Forms": "2.4.0.282"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microcharts.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microcharts.Forms.dll": {}
+        }
+      },
       "MvvmLightLibsStd10/5.4.1": {
         "type": "package",
         "compile": {
@@ -20,6 +67,64 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "SkiaSharp/1.59.1": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid/SkiaSharp.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win7-x64/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win7-x64"
+          },
+          "runtimes/win7-x86/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win7-x86"
+          }
+        }
+      },
+      "SkiaSharp.Views/1.59.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.1"
+        },
+        "compile": {
+          "lib/MonoAndroid/SkiaSharp.Views.Android.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid/SkiaSharp.Views.Android.dll": {}
+        }
+      },
+      "SkiaSharp.Views.Forms/1.59.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.1",
+          "SkiaSharp.Views": "1.59.1.1",
+          "Xamarin.Forms": "2.3.0"
+        },
+        "compile": {
+          "lib/MonoAndroid/SkiaSharp.Views.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid/SkiaSharp.Views.Forms.dll": {}
+        }
+      },
+      "System.ValueTuple/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/MonoAndroid10/_._": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/_._": {}
         }
       },
       "Xam.Plugin.Connectivity/3.1.1": {
@@ -162,6 +267,21 @@
         },
         "build": {
           "build/MonoAndroid81/Xamarin.Android.Support.Core.Utils.targets": {}
+        }
+      },
+      "Xamarin.Android.Support.CustomTabs/27.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Compat": "[27.0.2]"
+        },
+        "compile": {
+          "lib/MonoAndroid81/Xamarin.Android.Support.CustomTabs.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid81/Xamarin.Android.Support.CustomTabs.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid81/Xamarin.Android.Support.CustomTabs.targets": {}
         }
       },
       "Xamarin.Android.Support.Design/27.0.2": {
@@ -355,69 +475,11 @@
           "build/MonoAndroid81/Xamarin.Android.Support.Vector.Drawable.targets": {}
         }
       },
-      "Xamarin.Azure.NotificationHubs.Android/0.4.0": {
-        "type": "package",
-        "compile": {
-          "lib/MonoAndroid403/Xamarin.Azure.NotificationHubs.Android.dll": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid403/Xamarin.Azure.NotificationHubs.Android.dll": {}
-        }
-      },
-      "Xamarin.Build.Download/0.4.9": {
+      "Xamarin.Build.Download/0.4.2": {
         "type": "package",
         "build": {
           "build/Xamarin.Build.Download.props": {},
           "build/Xamarin.Build.Download.targets": {}
-        }
-      },
-      "Xamarin.Firebase.Common/60.1142.1": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.GooglePlayServices.Basement": "[60.1142.1]",
-          "Xamarin.GooglePlayServices.Tasks": "[60.1142.1]"
-        },
-        "compile": {
-          "lib/MonoAndroid80/Xamarin.Firebase.Common.dll": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid80/Xamarin.Firebase.Common.dll": {}
-        },
-        "build": {
-          "build/MonoAndroid80/Xamarin.Firebase.Common.targets": {}
-        }
-      },
-      "Xamarin.Firebase.Iid/60.1142.1": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Firebase.Common": "[60.1142.1]",
-          "Xamarin.GooglePlayServices.Basement": "[60.1142.1]"
-        },
-        "compile": {
-          "lib/MonoAndroid80/Xamarin.Firebase.Iid.dll": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid80/Xamarin.Firebase.Iid.dll": {}
-        },
-        "build": {
-          "build/MonoAndroid80/Xamarin.Firebase.Iid.targets": {}
-        }
-      },
-      "Xamarin.Firebase.Messaging/60.1142.1": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Firebase.Common": "[60.1142.1]",
-          "Xamarin.Firebase.Iid": "[60.1142.1]",
-          "Xamarin.GooglePlayServices.Basement": "[60.1142.1]"
-        },
-        "compile": {
-          "lib/MonoAndroid80/Xamarin.Firebase.Messaging.dll": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid80/Xamarin.Firebase.Messaging.dll": {}
-        },
-        "build": {
-          "build/MonoAndroid80/Xamarin.Firebase.Messaging.targets": {}
         }
       },
       "Xamarin.Forms/3.0.0.446417": {
@@ -448,61 +510,93 @@
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.GooglePlayServices.Base/60.1142.1": {
+      "Xamarin.GooglePlayServices.Base/42.1021.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.GooglePlayServices.Basement": "[60.1142.1]",
-          "Xamarin.GooglePlayServices.Tasks": "[60.1142.1]"
+          "Xamarin.GooglePlayServices.Basement": "[42.1021.1]",
+          "Xamarin.GooglePlayServices.Tasks": "[42.1021.1]"
         },
         "compile": {
-          "lib/MonoAndroid80/Xamarin.GooglePlayServices.Base.dll": {}
+          "lib/MonoAndroid70/Xamarin.GooglePlayServices.Base.dll": {}
         },
         "runtime": {
-          "lib/MonoAndroid80/Xamarin.GooglePlayServices.Base.dll": {}
+          "lib/MonoAndroid70/Xamarin.GooglePlayServices.Base.dll": {}
         },
         "build": {
-          "build/MonoAndroid80/Xamarin.GooglePlayServices.Base.targets": {}
+          "build/MonoAndroid70/Xamarin.GooglePlayServices.Base.targets": {}
         }
       },
-      "Xamarin.GooglePlayServices.Basement/60.1142.1": {
+      "Xamarin.GooglePlayServices.Basement/42.1021.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Support.Compat": "26.0.2",
-          "Xamarin.Android.Support.Core.UI": "26.0.2",
-          "Xamarin.Android.Support.Core.Utils": "26.0.2",
-          "Xamarin.Android.Support.Fragment": "26.0.2",
-          "Xamarin.Android.Support.Media.Compat": "26.0.2",
-          "Xamarin.Build.Download": "0.4.9"
+          "Xamarin.Android.Support.v4": "25.1.0",
+          "Xamarin.Build.Download": "0.4.2"
         },
         "compile": {
-          "lib/MonoAndroid80/Xamarin.GooglePlayServices.Basement.dll": {}
+          "lib/MonoAndroid70/Xamarin.GooglePlayServices.Basement.dll": {}
         },
         "runtime": {
-          "lib/MonoAndroid80/Xamarin.GooglePlayServices.Basement.dll": {}
+          "lib/MonoAndroid70/Xamarin.GooglePlayServices.Basement.dll": {}
         },
         "build": {
-          "build/MonoAndroid80/Xamarin.GooglePlayServices.Basement.targets": {}
+          "build/MonoAndroid70/Xamarin.GooglePlayServices.Basement.targets": {}
         }
       },
-      "Xamarin.GooglePlayServices.Tasks/60.1142.1": {
+      "Xamarin.GooglePlayServices.Gcm/42.1021.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.GooglePlayServices.Basement": "[60.1142.1]"
+          "Xamarin.GooglePlayServices.Base": "[42.1021.1]",
+          "Xamarin.GooglePlayServices.Basement": "[42.1021.1]",
+          "Xamarin.GooglePlayServices.Iid": "[42.1021.1]"
         },
         "compile": {
-          "lib/MonoAndroid80/Xamarin.GooglePlayServices.Tasks.dll": {}
+          "lib/MonoAndroid70/Xamarin.GooglePlayServices.Gcm.dll": {}
         },
         "runtime": {
-          "lib/MonoAndroid80/Xamarin.GooglePlayServices.Tasks.dll": {}
+          "lib/MonoAndroid70/Xamarin.GooglePlayServices.Gcm.dll": {}
         },
         "build": {
-          "build/MonoAndroid80/Xamarin.GooglePlayServices.Tasks.targets": {}
+          "build/MonoAndroid70/Xamarin.GooglePlayServices.Gcm.targets": {}
+        }
+      },
+      "Xamarin.GooglePlayServices.Iid/42.1021.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.GooglePlayServices.Base": "[42.1021.1]",
+          "Xamarin.GooglePlayServices.Basement": "[42.1021.1]"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.GooglePlayServices.Iid.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.GooglePlayServices.Iid.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/Xamarin.GooglePlayServices.Iid.targets": {}
+        }
+      },
+      "Xamarin.GooglePlayServices.Tasks/42.1021.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.GooglePlayServices.Basement": "[42.1021.1]"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.GooglePlayServices.Tasks.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.GooglePlayServices.Tasks.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/Xamarin.GooglePlayServices.Tasks.targets": {}
         }
       },
       "appECMHV2/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Com.OneSignal": "3.2.0",
+          "Microcharts": "0.8.3-pre",
+          "Microcharts.Forms": "0.8.3-pre",
           "MvvmLightLibsStd10": "5.4.1",
           "Newtonsoft.Json": "11.0.2",
           "Xam.Plugin.Connectivity": "3.1.1",
@@ -519,6 +613,61 @@
     }
   },
   "libraries": {
+    "Com.OneSignal/3.2.0": {
+      "sha512": "csAvq5O/9nhpUt0riINvBzWzhtCeQ7Mk4ysozl/3Ew/DV7mt7mHTFqMMoGFamlgVO1Ki9VQOgyPnlhBWiZmHdw==",
+      "type": "package",
+      "path": "com.onesignal/3.2.0",
+      "files": [
+        "com.onesignal.3.2.0.nupkg.sha512",
+        "com.onesignal.nuspec",
+        "lib/MonoAndroid10/Com.OneSignal.Abstractions.dll",
+        "lib/MonoAndroid10/Com.OneSignal.Abstractions.pdb",
+        "lib/MonoAndroid10/Com.OneSignal.dll",
+        "lib/MonoAndroid10/Com.OneSignal.pdb",
+        "lib/MonoAndroid10/OneSignal.Android.Binding.dll",
+        "lib/MonoAndroid10/OneSignal.Android.Binding.pdb",
+        "lib/Xamarin.iOS10/Com.OneSignal.Abstractions.dll",
+        "lib/Xamarin.iOS10/Com.OneSignal.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Com.OneSignal.dll",
+        "lib/Xamarin.iOS10/Com.OneSignal.pdb",
+        "lib/Xamarin.iOS10/OneSignal.iOS.Binding.dll",
+        "lib/Xamarin.iOS10/OneSignal.iOS.Binding.pdb",
+        "lib/netstandard1.0/Com.OneSignal.Abstractions.dll",
+        "lib/netstandard1.0/Com.OneSignal.Abstractions.pdb",
+        "lib/netstandard1.0/Com.OneSignal.dll",
+        "lib/netstandard1.0/Com.OneSignal.pdb"
+      ]
+    },
+    "Microcharts/0.8.3-pre": {
+      "sha512": "8RF/nktCobZ2PBQ9t9BROI/v78azWePKzLv/X3W4h6UrsNLUjrusc/fA5sgh10lD4n6R7jP+LaDXx1p/sKd89w==",
+      "type": "package",
+      "path": "microcharts/0.8.3-pre",
+      "files": [
+        "lib/MonoAndroid10/Microcharts.Droid.dll",
+        "lib/MonoAndroid10/Microcharts.dll",
+        "lib/Xamarin.iOS10/Microcharts.dll",
+        "lib/Xamarin.iOS10/Microcharts.iOS.dll",
+        "lib/netstandard1.3/Microcharts.dll",
+        "lib/portable-net45+win8+wpa81+wp8/Microcharts.dll",
+        "lib/uap/Microcharts.Uwp.dll",
+        "lib/uap/Microcharts.dll",
+        "lib/xamarinmac/Microcharts.dll",
+        "lib/xamarinmac/Microcharts.macOS.dll",
+        "microcharts.0.8.3-pre.nupkg.sha512",
+        "microcharts.nuspec"
+      ]
+    },
+    "Microcharts.Forms/0.8.3-pre": {
+      "sha512": "sw7TRWZbrodd+R26lpSm5o4ckoYPlj6rxiedXVeWyLJemKevOflWfX8W3HWjoadFDAhuOczEilHJOS5eXFeapQ==",
+      "type": "package",
+      "path": "microcharts.forms/0.8.3-pre",
+      "files": [
+        "lib/netstandard1.3/Microcharts.Forms.dll",
+        "lib/portable-net45+win8+wpa81+wp8/Microcharts.Forms.dll",
+        "microcharts.forms.0.8.3-pre.nupkg.sha512",
+        "microcharts.forms.nuspec"
+      ]
+    },
     "MvvmLightLibsStd10/5.4.1": {
       "sha512": "tcxfwH7ollbkZKS6m+cXlYn3TpMxlVvZZcUsP81KI979nqJ9JA02PewxOR3AwbgMeE39fQSNcMJ8lSQKNQGrhg==",
       "type": "package",
@@ -582,6 +731,121 @@
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "newtonsoft.json.11.0.2.nupkg.sha512",
         "newtonsoft.json.nuspec"
+      ]
+    },
+    "SkiaSharp/1.59.1": {
+      "sha512": "Le+YqP0aWwJ5ImHikWiLWOWjdH8oOV6F2D7fknzKp9ArzDIrtPASeiHpI1RgqQEK/GGvR56B2l5belsDzwK7uQ==",
+      "type": "package",
+      "path": "skiasharp/1.59.1",
+      "files": [
+        "build/net45/SkiaSharp.dll.config",
+        "build/net45/SkiaSharp.targets",
+        "lib/MonoAndroid/SkiaSharp.dll",
+        "lib/MonoAndroid/SkiaSharp.xml",
+        "lib/XamarinMac/SkiaSharp.dll",
+        "lib/XamarinMac/SkiaSharp.xml",
+        "lib/XamariniOS/SkiaSharp.dll",
+        "lib/XamariniOS/SkiaSharp.xml",
+        "lib/XamarintvOS/SkiaSharp.dll",
+        "lib/XamarintvOS/SkiaSharp.xml",
+        "lib/net45/SkiaSharp.dll",
+        "lib/net45/SkiaSharp.dll.config",
+        "lib/net45/SkiaSharp.xml",
+        "lib/netstandard1.3/SkiaSharp.dll",
+        "lib/netstandard1.3/SkiaSharp.xml",
+        "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.dll",
+        "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.xml",
+        "lib/uap10.0/SkiaSharp.dll",
+        "lib/uap10.0/SkiaSharp.xml",
+        "runtimes/osx/native/libSkiaSharp.dylib",
+        "runtimes/win10-arm/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win7-x64/native/libSkiaSharp.dll",
+        "runtimes/win7-x86/native/libSkiaSharp.dll",
+        "skiasharp.1.59.1.nupkg.sha512",
+        "skiasharp.nuspec",
+        "xamarin.interactive/SkiaSharp.Workbooks.dll"
+      ]
+    },
+    "SkiaSharp.Views/1.59.1.1": {
+      "sha512": "1MQmOh3OjdrCD87Ehdn986RoD43WEe8D9zzncCotuAckYHB++JmDv1poOhaiWtoYqCLXU6Vk5IcQR6+EgZ0ofQ==",
+      "type": "package",
+      "path": "skiasharp.views/1.59.1.1",
+      "files": [
+        "lib/MonoAndroid/SkiaSharp.Views.Android.dll",
+        "lib/XamarinMac/SkiaSharp.Views.Mac.dll",
+        "lib/XamariniOS/SkiaSharp.Views.iOS.dll",
+        "lib/XamarintvOS/SkiaSharp.Views.tvOS.dll",
+        "lib/net45/SkiaSharp.Views.Desktop.dll",
+        "lib/net45/SkiaSharp.Views.WPF.dll",
+        "lib/uap10.0/SkiaSharp.Views.UWP.dll",
+        "skiasharp.views.1.59.1.1.nupkg.sha512",
+        "skiasharp.views.nuspec"
+      ]
+    },
+    "SkiaSharp.Views.Forms/1.59.1.1": {
+      "sha512": "9SvUAas8A7Tj4NuvFX3Z+tCQFbC+XSayRJPI3zxrzfc8g0WTc2S0yCj8+wm/eSTB5fHmFguu9FOoiyYMj53fiw==",
+      "type": "package",
+      "path": "skiasharp.views.forms/1.59.1.1",
+      "files": [
+        "lib/MonoAndroid/SkiaSharp.Views.Forms.dll",
+        "lib/XamarinMac/SkiaSharp.Views.Forms.dll",
+        "lib/XamariniOS/SkiaSharp.Views.Forms.dll",
+        "lib/netstandard1.3/SkiaSharp.Views.Forms.dll",
+        "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.Views.Forms.dll",
+        "lib/uap10.0/SkiaSharp.Views.Forms.dll",
+        "skiasharp.views.forms.1.59.1.1.nupkg.sha512",
+        "skiasharp.views.forms.nuspec"
+      ]
+    },
+    "System.ValueTuple/4.4.0": {
+      "sha512": "BahUww/+mdP4ARCAh2RQhQTg13wYLVrBb9SYVgW8ZlrwjraGCXHGjo0oIiUfZ34LUZkMMR+RAzR7dEY4S1HeQQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.4.0",
+      "files": [
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net461/System.ValueTuple.xml",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.4.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "Xam.Plugin.Connectivity/3.1.1": {
@@ -819,6 +1083,18 @@
         "xamarin.android.support.core.utils.nuspec"
       ]
     },
+    "Xamarin.Android.Support.CustomTabs/27.0.2": {
+      "sha512": "j5CHzgUcacHxNXeZXJw0dRYhsTxkfI5IHsCo1FzEIv8jinuBAy1fIEkGsFB4hNlq1Y4obcZb9ub72t/g/D+dSw==",
+      "type": "package",
+      "path": "xamarin.android.support.customtabs/27.0.2",
+      "files": [
+        "THIRD-PARTY-NOTICES.txt",
+        "build/MonoAndroid81/Xamarin.Android.Support.CustomTabs.targets",
+        "lib/MonoAndroid81/Xamarin.Android.Support.CustomTabs.dll",
+        "xamarin.android.support.customtabs.27.0.2.nupkg.sha512",
+        "xamarin.android.support.customtabs.nuspec"
+      ]
+    },
     "Xamarin.Android.Support.Design/27.0.2": {
       "sha512": "OHKQZoCuOP3ejKIJo4qFC4WQ0pqCIV6PIiPxG2ViFyYJd7CUOTAFIyXa2m6ZholEnyrDDt3XoEx8NigplKtXdA==",
       "type": "package",
@@ -956,20 +1232,10 @@
         "xamarin.android.support.vector.drawable.nuspec"
       ]
     },
-    "Xamarin.Azure.NotificationHubs.Android/0.4.0": {
-      "sha512": "5F4vD3RLGXrxGpIpno+T+rlg6YWXz73c5/FcIBvDL3wv24mGEO1l6EMY8N0QMfdz+hQf/U1f3d899wdlABrf/A==",
+    "Xamarin.Build.Download/0.4.2": {
+      "sha512": "ubHPHMJ7RrfrsG4kHEy925XDMb+P41WOI8Bxkm3RmecGjj1Ew/u6rpWAZSgLv7FxZbmfvl5xAKUJ4onCycvw5g==",
       "type": "package",
-      "path": "xamarin.azure.notificationhubs.android/0.4.0",
-      "files": [
-        "lib/MonoAndroid403/Xamarin.Azure.NotificationHubs.Android.dll",
-        "xamarin.azure.notificationhubs.android.0.4.0.nupkg.sha512",
-        "xamarin.azure.notificationhubs.android.nuspec"
-      ]
-    },
-    "Xamarin.Build.Download/0.4.9": {
-      "sha512": "HDQzyew/2Kb8sOjbzcHtFFxLbCclln+1T8bssKx9zAs9HNuK/1mugf077A9VxzID/fFBMmBXvL/z2jUpNlgX2A==",
-      "type": "package",
-      "path": "xamarin.build.download/0.4.9",
+      "path": "xamarin.build.download/0.4.2",
       "files": [
         "THIRD-PARTY-NOTICES.txt",
         "build/Mono.Cecil.dll",
@@ -978,41 +1244,8 @@
         "build/Xamarin.Build.Download.dll",
         "build/Xamarin.Build.Download.props",
         "build/Xamarin.Build.Download.targets",
-        "xamarin.build.download.0.4.9.nupkg.sha512",
+        "xamarin.build.download.0.4.2.nupkg.sha512",
         "xamarin.build.download.nuspec"
-      ]
-    },
-    "Xamarin.Firebase.Common/60.1142.1": {
-      "sha512": "lBkdcgaqAvAkkkBzZGvYviGl3C7J4n2B3CXY3izVR7M1xPZ6Q9scrm0tZJMwwEP+/z3qqZRL/DBVH1dNChGJ4A==",
-      "type": "package",
-      "path": "xamarin.firebase.common/60.1142.1",
-      "files": [
-        "build/MonoAndroid80/Xamarin.Firebase.Common.targets",
-        "lib/MonoAndroid80/Xamarin.Firebase.Common.dll",
-        "xamarin.firebase.common.60.1142.1.nupkg.sha512",
-        "xamarin.firebase.common.nuspec"
-      ]
-    },
-    "Xamarin.Firebase.Iid/60.1142.1": {
-      "sha512": "cHauaYNySwKJPBhTFhPujlFLUkr/2CzXHes2DMXDkBi6BcKcnuClwyQ9izY/PuDzflyaqfX5rJGtrkwwZ8pQxw==",
-      "type": "package",
-      "path": "xamarin.firebase.iid/60.1142.1",
-      "files": [
-        "build/MonoAndroid80/Xamarin.Firebase.Iid.targets",
-        "lib/MonoAndroid80/Xamarin.Firebase.Iid.dll",
-        "xamarin.firebase.iid.60.1142.1.nupkg.sha512",
-        "xamarin.firebase.iid.nuspec"
-      ]
-    },
-    "Xamarin.Firebase.Messaging/60.1142.1": {
-      "sha512": "RuSRm4QpsDMuQ+hoBf1K0fFiREhuJRzQxL/9cz3ApNfXz58zqrLCGanmaAn/ZBhoQRz/l0OKJRHEfiL4B4bCeQ==",
-      "type": "package",
-      "path": "xamarin.firebase.messaging/60.1142.1",
-      "files": [
-        "build/MonoAndroid80/Xamarin.Firebase.Messaging.targets",
-        "lib/MonoAndroid80/Xamarin.Firebase.Messaging.dll",
-        "xamarin.firebase.messaging.60.1142.1.nupkg.sha512",
-        "xamarin.firebase.messaging.nuspec"
       ]
     },
     "Xamarin.Forms/3.0.0.446417": {
@@ -1152,37 +1385,59 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "Xamarin.GooglePlayServices.Base/60.1142.1": {
-      "sha512": "XI1JjQRV3sYgZ8AfMzL67ttVtlELkXf2wUQr8XI06MbCAX7lCC7yw/Bdwyf6atTsDCa7CRIrL0PkWMf0riAbOA==",
+    "Xamarin.GooglePlayServices.Base/42.1021.1": {
+      "sha512": "BtzfOXEkHdaQ8NGc8TpAYmjGAf27zWyxMS9dz+YGU2S2oR09KPm/dQ7PzHNlOT90CQLI4JjzKTxfQ7IB5DBsJA==",
       "type": "package",
-      "path": "xamarin.googleplayservices.base/60.1142.1",
+      "path": "xamarin.googleplayservices.base/42.1021.1",
       "files": [
-        "build/MonoAndroid80/Xamarin.GooglePlayServices.Base.targets",
-        "lib/MonoAndroid80/Xamarin.GooglePlayServices.Base.dll",
-        "xamarin.googleplayservices.base.60.1142.1.nupkg.sha512",
+        "build/MonoAndroid70/Xamarin.GooglePlayServices.Base.targets",
+        "lib/MonoAndroid70/Xamarin.GooglePlayServices.Base.dll",
+        "xamarin.googleplayservices.base.42.1021.1.nupkg.sha512",
         "xamarin.googleplayservices.base.nuspec"
       ]
     },
-    "Xamarin.GooglePlayServices.Basement/60.1142.1": {
-      "sha512": "G4PFBPoAovRwmCdO7jpdeZ5N974JsOjiLKDnOcZxC+4IjYs0ZvoBP/dyYDI32tCbpzNEbb/00oqx35Gjgl5f2g==",
+    "Xamarin.GooglePlayServices.Basement/42.1021.1": {
+      "sha512": "jtKUaz3wGQevuewY9i7FYRvfSIZhBHymTZwTx1agr6G2hg6Xx06LkRYICULHTRjUHa+Ee/J44ejf3+hMd2WBeg==",
       "type": "package",
-      "path": "xamarin.googleplayservices.basement/60.1142.1",
+      "path": "xamarin.googleplayservices.basement/42.1021.1",
       "files": [
-        "build/MonoAndroid80/Xamarin.GooglePlayServices.Basement.targets",
-        "build/MonoAndroid80/Xamarin.GooglePlayServices.Tasks.dll",
-        "lib/MonoAndroid80/Xamarin.GooglePlayServices.Basement.dll",
-        "xamarin.googleplayservices.basement.60.1142.1.nupkg.sha512",
+        "build/MonoAndroid70/Xamarin.GooglePlayServices.Basement.targets",
+        "build/MonoAndroid70/Xamarin.GooglePlayServices.Tasks.dll",
+        "lib/MonoAndroid70/Xamarin.GooglePlayServices.Basement.dll",
+        "xamarin.googleplayservices.basement.42.1021.1.nupkg.sha512",
         "xamarin.googleplayservices.basement.nuspec"
       ]
     },
-    "Xamarin.GooglePlayServices.Tasks/60.1142.1": {
-      "sha512": "DS4MgQWwbAuAf5gXGPAPCpuCVkElQSTv/iguZ9Ca5vmiXpbrbvCpN5JhxBYu2qGkSn1wwX37bI+EHib/FVQthg==",
+    "Xamarin.GooglePlayServices.Gcm/42.1021.1": {
+      "sha512": "j26E/aDPvf69PkV+D0G4hqh8uxOjUpEc0NlCl5RVGXiW5Ynuo1/OW4cqviB8r2huR3tvCKjNJisSDk2LUHC0MQ==",
       "type": "package",
-      "path": "xamarin.googleplayservices.tasks/60.1142.1",
+      "path": "xamarin.googleplayservices.gcm/42.1021.1",
       "files": [
-        "build/MonoAndroid80/Xamarin.GooglePlayServices.Tasks.targets",
-        "lib/MonoAndroid80/Xamarin.GooglePlayServices.Tasks.dll",
-        "xamarin.googleplayservices.tasks.60.1142.1.nupkg.sha512",
+        "build/MonoAndroid70/Xamarin.GooglePlayServices.Gcm.targets",
+        "lib/MonoAndroid70/Xamarin.GooglePlayServices.Gcm.dll",
+        "xamarin.googleplayservices.gcm.42.1021.1.nupkg.sha512",
+        "xamarin.googleplayservices.gcm.nuspec"
+      ]
+    },
+    "Xamarin.GooglePlayServices.Iid/42.1021.1": {
+      "sha512": "znRLA3BflMvCZYUiekJ5HFYtOXIPYDyrT1fwMopjCt0ccj3VXQjmzrqtzxs8KnEE9Zfkal5xU5DHSwBZr1Obag==",
+      "type": "package",
+      "path": "xamarin.googleplayservices.iid/42.1021.1",
+      "files": [
+        "build/MonoAndroid70/Xamarin.GooglePlayServices.Iid.targets",
+        "lib/MonoAndroid70/Xamarin.GooglePlayServices.Iid.dll",
+        "xamarin.googleplayservices.iid.42.1021.1.nupkg.sha512",
+        "xamarin.googleplayservices.iid.nuspec"
+      ]
+    },
+    "Xamarin.GooglePlayServices.Tasks/42.1021.1": {
+      "sha512": "en5d21P3pIGGWtmqcygJsX74mNX8VZqOkj/ajwrwyIK8EOsbWLI9Cw0+wdE3OYGEwk+74ckX1icLT/zTspf8kg==",
+      "type": "package",
+      "path": "xamarin.googleplayservices.tasks/42.1021.1",
+      "files": [
+        "build/MonoAndroid70/Xamarin.GooglePlayServices.Tasks.targets",
+        "lib/MonoAndroid70/Xamarin.GooglePlayServices.Tasks.dll",
+        "xamarin.googleplayservices.tasks.42.1021.1.nupkg.sha512",
         "xamarin.googleplayservices.tasks.nuspec"
       ]
     },
@@ -1194,6 +1449,8 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
+      "Com.OneSignal >= 3.2.0",
+      "Microcharts.Forms >= 0.8.3-pre",
       "Newtonsoft.Json >= 11.0.2",
       "Xam.Plugin.Connectivity >= 3.1.1",
       "Xam.Plugins.Settings >= 3.1.1",
@@ -1202,10 +1459,7 @@
       "Xamarin.Android.Support.v7.AppCompat >= 27.0.2",
       "Xamarin.Android.Support.v7.CardView >= 27.0.2",
       "Xamarin.Android.Support.v7.MediaRouter >= 27.0.2",
-      "Xamarin.Azure.NotificationHubs.Android >= 0.4.0",
-      "Xamarin.Firebase.Messaging >= 60.1142.1",
       "Xamarin.Forms >= 3.0.0.446417",
-      "Xamarin.GooglePlayServices.Base >= 60.1142.1",
       "appECMHV2 >= 1.0.0"
     ]
   },
@@ -1246,6 +1500,14 @@
     "frameworks": {
       "monoandroid81": {
         "dependencies": {
+          "Com.OneSignal": {
+            "target": "Package",
+            "version": "[3.2.0, )"
+          },
+          "Microcharts.Forms": {
+            "target": "Package",
+            "version": "[0.8.3-pre, )"
+          },
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[11.0.2, )"
@@ -1278,24 +1540,24 @@
             "target": "Package",
             "version": "[27.0.2, )"
           },
-          "Xamarin.Azure.NotificationHubs.Android": {
-            "target": "Package",
-            "version": "[0.4.0, )"
-          },
-          "Xamarin.Firebase.Messaging": {
-            "target": "Package",
-            "version": "[60.1142.1, )"
-          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[3.0.0.446417, )"
-          },
-          "Xamarin.GooglePlayServices.Base": {
-            "target": "Package",
-            "version": "[60.1142.1, )"
           }
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Com.OneSignal 3.2.0 depends on Xamarin.Android.Support.CustomTabs (>= 27.0.0 && < 27.2.0) but Xamarin.Android.Support.CustomTabs 27.0.0 was not found. An approximate best match of Xamarin.Android.Support.CustomTabs 27.0.2 was resolved.",
+      "libraryId": "Xamarin.Android.Support.CustomTabs",
+      "targetGraphs": [
+        "MonoAndroid,Version=v8.1"
+      ]
+    }
+  ]
 }

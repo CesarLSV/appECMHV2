@@ -105,6 +105,10 @@ namespace appECMHV2.Helpers
         }
 
         
+        public   static string welcome
+        {
+            get { return Resource.welcome;  }
+        }
 
     }
 }
